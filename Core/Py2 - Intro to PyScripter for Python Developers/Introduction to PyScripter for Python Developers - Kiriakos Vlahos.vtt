@@ -1,0 +1,1266 @@
+WEBVTT
+
+1
+00:00:05.160 --> 00:00:14.730
+Kiriakos Vlahos: hello to everyone, thank you for attending this session of coding boot camp this a session on base critter.
+
+2
+00:00:17.880 --> 00:00:24.390
+Kiriakos Vlahos: and integrated development environment for Python developers and I will start by introducing myself.
+
+3
+00:00:27.420 --> 00:00:37.950
+Kiriakos Vlahos: My name is carrie jack was black wash I live in Greece and I work as a university professor teaching course management science and data analytics.
+
+4
+00:00:39.570 --> 00:00:46.440
+Kiriakos Vlahos: But i'm also an open source of juiciest with more than 35 years of programming experience.
+
+5
+00:00:47.850 --> 00:00:51.840
+Kiriakos Vlahos: My main programming languages are Delphi and based on.
+
+6
+00:00:52.920 --> 00:01:11.370
+Kiriakos Vlahos: And I am the developer of bias character i'm also developing them and Dana have a number of libraries Delphi libraries, most notably the Python for Delphi, which is a way to breed so the two languages Delphi and Bible.
+
+7
+00:01:13.290 --> 00:01:16.350
+Kiriakos Vlahos: You can see my homepage and get up.
+
+8
+00:01:17.490 --> 00:01:21.180
+Kiriakos Vlahos: If you want to find more about my activities and my programming.
+
+9
+00:01:25.140 --> 00:01:27.390
+Kiriakos Vlahos: Now this is the plan for today.
+
+10
+00:01:29.250 --> 00:01:33.240
+Kiriakos Vlahos: I will start by providing innovative by skater.
+
+11
+00:01:34.380 --> 00:01:39.060
+Kiriakos Vlahos: And then talking about the requirements and the installation process.
+
+12
+00:01:41.070 --> 00:01:53.820
+Kiriakos Vlahos: I will talk about the user interface i'm, the editor and finally i'll finish off with demonstrating the debugging capabilities of ice skater.
+
+13
+00:01:59.610 --> 00:02:00.420
+Kiriakos Vlahos: Okay, so.
+
+14
+00:02:01.920 --> 00:02:16.170
+Kiriakos Vlahos: I skipped there is an integrated development environment for Python and navy know in case you have not come across the terminology about ids.
+
+15
+00:02:18.030 --> 00:02:19.020
+Kiriakos Vlahos: Here is what.
+
+16
+00:02:20.550 --> 00:02:32.250
+Kiriakos Vlahos: Paul vicki bigger defines and the great development environment is basically a software application, which provides facilities comprehensive facilities.
+
+17
+00:02:33.420 --> 00:02:54.750
+Kiriakos Vlahos: For computer programmers to facilitate the task of software development typical eating gluten source code editor David the gold in the backyard, but it also may have a number of other goodies the increase programming productivity as you're going to see later on in this presentation.
+
+18
+00:02:58.950 --> 00:03:03.540
+Kiriakos Vlahos: Now base clip there is some free and open source.
+
+19
+00:03:05.490 --> 00:03:15.000
+Kiriakos Vlahos: And it is a number of features, I will be discussing with some allow programmers to become progress productive by programming in Python.
+
+20
+00:03:16.560 --> 00:03:31.890
+Kiriakos Vlahos: But at the same time and compared to some of the other commercial and sometimes freely available ids, such as, for example, visual studio or even vs code, it is streamlined the lightweight.
+
+21
+00:03:35.370 --> 00:03:42.420
+Kiriakos Vlahos: Being lightweight and streamlined, it makes it a good starting point for people that learn the Program.
+
+22
+00:03:43.650 --> 00:03:49.380
+Kiriakos Vlahos: But it has sufficient power to be attractive to professionals.
+
+23
+00:03:51.090 --> 00:03:59.040
+Kiriakos Vlahos: It is developed, it has been developed with Delphi and it has his stronger loyal user base.
+
+24
+00:04:01.980 --> 00:04:10.200
+Kiriakos Vlahos: Just a bit of history, it was actually developed started developed being developed about 15 years ago.
+
+25
+00:04:11.580 --> 00:04:16.350
+Kiriakos Vlahos: The Duncan Python was actually a lesson on programming language.
+
+26
+00:04:17.910 --> 00:04:18.630
+Kiriakos Vlahos: um.
+
+27
+00:04:20.790 --> 00:04:27.930
+Kiriakos Vlahos: It was initially costs it in Google code kind of repository similar to get up.
+
+28
+00:04:29.460 --> 00:04:36.810
+Kiriakos Vlahos: And instantly became very popular because there was very little competition by way of ids for by.
+
+29
+00:04:38.760 --> 00:04:43.290
+Kiriakos Vlahos: There were many millions of downloads every time a new version came up.
+
+30
+00:04:44.370 --> 00:04:49.920
+Kiriakos Vlahos: But later on around 2014.
+
+31
+00:04:52.260 --> 00:05:03.810
+Kiriakos Vlahos: When Google got shut down that was a bit of a blow to the development and it took a couple of years until the whole effort was actually moved to get up.
+
+32
+00:05:04.890 --> 00:05:08.550
+Kiriakos Vlahos: And it says it's still going strong ever since.
+
+33
+00:05:10.020 --> 00:05:14.640
+Kiriakos Vlahos: He has a strong following, as I said earlier on in the face of intense competition nowadays.
+
+34
+00:05:15.720 --> 00:05:31.890
+Kiriakos Vlahos: And I would just like to mention them service history it kind of milestone was when embarcadero the software company that produces Delphi decided to provide sponsorship for this generous person so for Wednesday, I think that.
+
+35
+00:05:36.780 --> 00:05:49.620
+Kiriakos Vlahos: Just there is a level of the main features of base kit that will actually go into more detail later on, so it is a modern customizable and style user interface.
+
+36
+00:05:52.560 --> 00:05:57.000
+Kiriakos Vlahos: It provides all the use of stuff like since syntax highlighting code for me.
+
+37
+00:05:58.020 --> 00:06:05.250
+Kiriakos Vlahos: It includes an integrated Python interpreter, which allows you to experiment before you actually write the code.
+
+38
+00:06:07.230 --> 00:06:28.080
+Kiriakos Vlahos: It says the coding dates in depth sense, and by that were referring to things like code completion parameter completion code hinz find definition and stuff like that again we'll talk about those as we go along it includes an integrated by funded by give.
+
+39
+00:06:29.160 --> 00:06:34.920
+Kiriakos Vlahos: And it provides for the development projects by a project manager.
+
+40
+00:06:39.060 --> 00:06:45.990
+Kiriakos Vlahos: Some of the more advanced some kind of unique features, it has an interface and user interface from testing.
+
+41
+00:06:47.550 --> 00:06:57.120
+Kiriakos Vlahos: A provides for post mortem analysis, which means that your program exits with no exception, you can go back and look what went wrong.
+
+42
+00:06:58.770 --> 00:07:02.700
+Kiriakos Vlahos: Exactly and explore the gold star to the environment variable so.
+
+43
+00:07:05.340 --> 00:07:08.400
+Kiriakos Vlahos: It allows me to debug both of threads.
+
+44
+00:07:11.400 --> 00:07:15.810
+Kiriakos Vlahos: And also expecting and manage the beaten path.
+
+45
+00:07:18.810 --> 00:07:33.180
+Kiriakos Vlahos: By some camps batteries included in the grid, a lot of years for models by the default installation, but quite often their libraries, you would like to install On top of that, such as number and say bye and so on.
+
+46
+00:07:34.350 --> 00:07:39.390
+Kiriakos Vlahos: The standard tool for installing those libraries is a command line don't go.
+
+47
+00:07:41.970 --> 00:07:52.590
+Kiriakos Vlahos: By by scripted provides a high level interface to to beep so you can easily install using the user interface new models into the Python distribution.
+
+48
+00:07:56.130 --> 00:08:13.080
+Kiriakos Vlahos: It also allows you to run remotely and Edit round and debug remotely scripts in Linux and windows servers so you didn't have your by script running on windows, but then the actual execution of the code takes place in a remote machine.
+
+49
+00:08:16.020 --> 00:08:25.410
+Kiriakos Vlahos: He provides for integration with external tools likes sectors and type tickets and stuff like that.
+
+50
+00:08:27.210 --> 00:08:46.740
+Kiriakos Vlahos: And it allows you to sweets Python versions on the fly without exiting the software, so you can work, for example with Python three point, then, and then you want to drive whether your program is how it performs in Python 3.6 then on the fly, you can have two suits by Congress.
+
+51
+00:08:54.420 --> 00:09:14.880
+Kiriakos Vlahos: Now the requirements and installation, first of all, it is windows only So the idea on your answer windows, it is available in either 32 bit or 64 bits nowadays the 64 bits is recommended.
+
+52
+00:09:16.320 --> 00:09:23.220
+Kiriakos Vlahos: And he worked with by 3.3 or later, but it is a command to here's the latest iPhone version.
+
+53
+00:09:25.020 --> 00:09:38.250
+Kiriakos Vlahos: There are two ways and means we're going to see it to install the software either to use a windows installer or if they use a registered free zip file, because you just a zip and then run the software.
+
+54
+00:09:42.630 --> 00:09:51.900
+Kiriakos Vlahos: Now they required for I think I skipped there is that they have a Python version installed into your windows machine.
+
+55
+00:09:53.010 --> 00:10:09.600
+Kiriakos Vlahos: Now, if you seven naughty stop by and if you're new to buy them, then you should begin by downloading and installing a both on the Bush, there are many distributions like an accordion so on but you just start, and I would recommend, starting with.
+
+56
+00:10:10.650 --> 00:10:16.650
+Kiriakos Vlahos: Distribution from the official Python have side by the dog.
+
+57
+00:10:18.120 --> 00:10:20.790
+Kiriakos Vlahos: So, for example, if I go to buy from the dog.
+
+58
+00:10:23.010 --> 00:10:37.020
+Kiriakos Vlahos: And if I see the downloads the default version here 3.8 Point six can just download it run the installation file and install both in your computer.
+
+59
+00:10:44.790 --> 00:10:54.390
+Kiriakos Vlahos: After I mean obviously just skip this meeting this step if you're ready for bivens don't do your machine by script it will do a good job of finding your install base.
+
+60
+00:10:58.050 --> 00:11:00.120
+Kiriakos Vlahos: After that will increase the vice grip.
+
+61
+00:11:01.860 --> 00:11:05.580
+Kiriakos Vlahos: And you go to the bias get the download site.
+
+62
+00:11:07.200 --> 00:11:08.070
+Kiriakos Vlahos: and so forth, for.
+
+63
+00:11:09.630 --> 00:11:13.140
+Kiriakos Vlahos: This year, the different versus basically just pick the latest.
+
+64
+00:11:14.760 --> 00:11:23.220
+Kiriakos Vlahos: You can use this green button here download latest version but they want to show you the contents of the of the of the different options.
+
+65
+00:11:24.390 --> 00:11:25.200
+Kiriakos Vlahos: So.
+
+66
+00:11:26.640 --> 00:11:34.500
+Kiriakos Vlahos: You can either use an executable of windows installer or the US the zip installation.
+
+67
+00:11:36.930 --> 00:11:51.540
+Kiriakos Vlahos: The windows installer slightly easier to use, and he provides shortcuts and so on let's get run the software easily, and that would be the 64 bit version there download and install.
+
+68
+00:11:53.490 --> 00:12:09.900
+Kiriakos Vlahos: If you don't want to mess your registry or or or things like that you have the option of installing using the zip installation so again, I would I would use the 64 bits zip file download it.
+
+69
+00:12:11.130 --> 00:12:21.990
+Kiriakos Vlahos: As a bit into folder of your choice and inside of that folder your vine the executable the base clip that executable which you can use to run base give them.
+
+70
+00:12:25.860 --> 00:12:30.810
+Kiriakos Vlahos: Now one thing to make sure it's actually important is.
+
+71
+00:12:32.700 --> 00:12:52.710
+Kiriakos Vlahos: That the bigness of base camp do needs to match the bigness of Bible so use Python 64 bits with base glitter 64 bits or here's by month of debates with base gator 32 bit.
+
+72
+00:12:55.620 --> 00:13:10.620
+Kiriakos Vlahos: Now, at this stage, if you are in following this recording at your own pace, you can pose the presentation and installed base kit there, but I, myself, I will carry on with the presentation.
+
+73
+00:13:15.540 --> 00:13:21.840
+Kiriakos Vlahos: Here, some useful meetings, the homepage of base gator the download site that they showed you earlier on.
+
+74
+00:13:22.920 --> 00:13:25.710
+Kiriakos Vlahos: The support side, where they get help.
+
+75
+00:13:27.600 --> 00:13:51.330
+Kiriakos Vlahos: A blog some blogs that relate to buy skipper and, finally, if you want to help with translating by scripted into your own language, then this is a translation on there about 16 different translations, in other words the user interface in translate into 16 different languages.
+
+76
+00:13:54.540 --> 00:13:55.110
+Kiriakos Vlahos: Now.
+
+77
+00:13:56.850 --> 00:14:00.210
+Kiriakos Vlahos: Just a bit on on on the user interface.
+
+78
+00:14:03.030 --> 00:14:06.150
+Kiriakos Vlahos: It has a modern user interface.
+
+79
+00:14:07.500 --> 00:14:11.970
+Kiriakos Vlahos: With workspaces and dobbs I will be demonstrating that, in a second.
+
+80
+00:14:15.600 --> 00:14:19.320
+Kiriakos Vlahos: As I said, the use of sleeping about 1516 languages now.
+
+81
+00:14:21.330 --> 00:14:29.940
+Kiriakos Vlahos: In fact, let me restate just i'm just start off by sculptor and so instead of really talking abstract about this.
+
+82
+00:14:31.350 --> 00:14:34.170
+Kiriakos Vlahos: I can demonstrate that to you.
+
+83
+00:14:35.610 --> 00:14:38.520
+Kiriakos Vlahos: So basically when you install and run by skip them.
+
+84
+00:14:39.690 --> 00:14:45.420
+Kiriakos Vlahos: This is what you see, this is the kind of main screen, the main window.
+
+85
+00:14:46.950 --> 00:14:52.320
+Kiriakos Vlahos: And as you can see, the most of the space is dominated by the editor.
+
+86
+00:14:54.030 --> 00:15:06.930
+Kiriakos Vlahos: And you've got tabs at the bottom so, for example, you can add new editors this button here says new Python model and you add the model if you see the new models here, and you can close them if you want.
+
+87
+00:15:09.660 --> 00:15:12.750
+Kiriakos Vlahos: i'll talk about the editor in detail later on.
+
+88
+00:15:15.570 --> 00:15:24.540
+Kiriakos Vlahos: But you can see, the other ID windows i'll just talk a little bit about those there is a file explorer which allows you to navigate to your.
+
+89
+00:15:27.480 --> 00:15:40.500
+Kiriakos Vlahos: file system and for tell me can browse different paths, you can browse postulate your bike installation, for example, we can go into site packages to see what packages, you have installed.
+
+90
+00:15:43.080 --> 00:15:52.620
+Kiriakos Vlahos: In your by installation and you can open files by just double clicking them so for example here if I go to the standard library.
+
+91
+00:15:56.160 --> 00:15:57.300
+Kiriakos Vlahos: So, based on both.
+
+92
+00:15:58.830 --> 00:16:06.360
+Kiriakos Vlahos: The standard library, I can see here all the files of this and the library, and I can open the file just by double clicking.
+
+93
+00:16:11.820 --> 00:16:13.770
+Kiriakos Vlahos: On some of the other winners.
+
+94
+00:16:15.060 --> 00:16:22.140
+Kiriakos Vlahos: This about project management, you can actually create a project which include or your your files.
+
+95
+00:16:24.420 --> 00:16:27.270
+Kiriakos Vlahos: We said bad features, or one be talking about today.
+
+96
+00:16:29.100 --> 00:16:34.230
+Kiriakos Vlahos: And the, let me just let's say.
+
+97
+00:16:38.280 --> 00:16:41.790
+Kiriakos Vlahos: inspect and the gold explorer.
+
+98
+00:16:42.810 --> 00:16:57.450
+Kiriakos Vlahos: just talk a little bit about the gold explore this provides you a structural view of your file, with all the defined functions and the classes that you're more than boots, this is a standard Python.
+
+99
+00:16:58.980 --> 00:16:59.640
+Kiriakos Vlahos: file.
+
+100
+00:17:01.050 --> 00:17:04.260
+Kiriakos Vlahos: The spectrum or do of the Bible distribution.
+
+101
+00:17:05.310 --> 00:17:16.620
+Kiriakos Vlahos: Some of the features of the code explorer is it obviously didn't use that to navigate so for example here if I click a function name the door synchronize the visual visual synchronizes.
+
+102
+00:17:17.130 --> 00:17:31.050
+Kiriakos Vlahos: Also, if I go in and sort of scroll in the term can see here that the board explorers close girls as well it's supposed to be the goddess elected function, so the two of us are synchronized.
+
+103
+00:17:33.990 --> 00:17:38.610
+Kiriakos Vlahos: At the bottom, you see the Python interpreter with some.
+
+104
+00:17:42.000 --> 00:17:59.790
+Kiriakos Vlahos: allows you to experiment with code so, for example, if I type here one plus one, I get the result, or if I type some bacon code, like, for I raise 20 together let's say.
+
+105
+00:18:02.160 --> 00:18:03.930
+Kiriakos Vlahos: present I.
+
+106
+00:18:05.460 --> 00:18:19.440
+Kiriakos Vlahos: invite you down that get the results so basically you can develop gold interactively will see some other uses this window also serves as the output of your Python scripts when you run the.
+
+107
+00:18:22.890 --> 00:18:23.490
+Kiriakos Vlahos: um.
+
+108
+00:18:24.840 --> 00:18:29.520
+Kiriakos Vlahos: Some messages here, where you get diagnosed messages when things go wrong.
+
+109
+00:18:31.140 --> 00:18:47.430
+Kiriakos Vlahos: subdividing windows, which I won't be explaining later, plus a host of other windows ID winners quit and one of the time to explain the day just to show you here, at least.
+
+110
+00:18:48.660 --> 00:19:01.950
+Kiriakos Vlahos: Someone this week have actually talked about like interactive interpreter the project explorer the file explorer the board exploded, but you also have a to do list so you can manage your to do actions.
+
+111
+00:19:03.840 --> 00:19:06.030
+Kiriakos Vlahos: Mark them as Dan and stuff like that.
+
+112
+00:19:07.260 --> 00:19:21.180
+Kiriakos Vlahos: They do and expressions are very commonly used in in in in Python and there is an idea window, which allows you to develop regular expressions and test them before you actually incorporate them into your code.
+
+113
+00:19:22.560 --> 00:19:41.700
+Kiriakos Vlahos: Setting in the your file system with the final in files ID window and the unit tests, we take mentioned earlier on, which provides a graphical user interface to unit testing of your applications.
+
+114
+00:19:47.640 --> 00:19:50.730
+Kiriakos Vlahos: Okay um so we covered.
+
+115
+00:19:56.220 --> 00:19:59.010
+Kiriakos Vlahos: The basic idea windows.
+
+116
+00:20:00.240 --> 00:20:09.300
+Kiriakos Vlahos: So the next thing is to talk a little bit about the vice grip, the editor and the facilities provide.
+
+117
+00:20:17.580 --> 00:20:18.990
+Kiriakos Vlahos: Okay, so again.
+
+118
+00:20:22.530 --> 00:20:32.790
+Kiriakos Vlahos: Just a quick overview here i'll be demonstrating all that stuff in the second, so it provides, first of all, it provides it yes i'm understanding of bikers syntax.
+
+119
+00:20:33.510 --> 00:20:51.870
+Kiriakos Vlahos: So it provides auto inundation of your Python code Python is quite different from other programming language in the sense that white space is actually quite important, it is used to delete the separate blocks of code.
+
+120
+00:20:53.190 --> 00:21:03.690
+Kiriakos Vlahos: to initiate and finish blocks of code and and by script or match it's easy to avoid mistakes with the word space, but it going mistakes.
+
+121
+00:21:05.730 --> 00:21:10.290
+Kiriakos Vlahos: It allows me to ask picture without saving them again, I will be demonstrating that, in a second.
+
+122
+00:21:12.180 --> 00:21:30.000
+Kiriakos Vlahos: And, of course, provides all the modern the so called entails and stuff such as code completion, but after completion again will be singled out gold chains go to definition in the face find references and stuff like that.
+
+123
+00:21:33.090 --> 00:21:37.920
+Kiriakos Vlahos: Okay, let me just go back in and so you're the main features of the editor.
+
+124
+00:21:41.340 --> 00:21:44.580
+Kiriakos Vlahos: On again I started in your Bible model.
+
+125
+00:21:46.380 --> 00:22:00.240
+Kiriakos Vlahos: By the way, this template which is customizable when you press the are your bike or model commands so you can basically customize exactly what you would look like it can be just a bit, if you wish.
+
+126
+00:22:02.370 --> 00:22:02.970
+Kiriakos Vlahos: i'm.
+
+127
+00:22:05.520 --> 00:22:10.230
+Kiriakos Vlahos: The first thing of like demonstrate is a bit of about code completion.
+
+128
+00:22:12.540 --> 00:22:16.620
+Kiriakos Vlahos: um I start typing Python code for example here, and I say from.
+
+129
+00:22:19.050 --> 00:22:32.280
+Kiriakos Vlahos: A model which I don't know it, yet which one is this, so I, I want to import the data model, so I start typing de de for date which you see you've got a list of things you can actually input, starting with D.
+
+130
+00:22:33.750 --> 00:22:36.540
+Kiriakos Vlahos: And it can select the one.
+
+131
+00:22:37.590 --> 00:22:39.840
+Kiriakos Vlahos: You want, I would like the data model.
+
+132
+00:22:41.700 --> 00:22:46.950
+Kiriakos Vlahos: And then I start typing in a keyword is, you see here I just I am.
+
+133
+00:22:48.060 --> 00:22:57.240
+Kiriakos Vlahos: And, given the settings I have because there is no other option completion options, starting with him or you automatically get the ebook here we're tight.
+
+134
+00:22:58.920 --> 00:23:09.270
+Kiriakos Vlahos: And now let's say i'm not sure exactly what went deeper from this model I can again press record completion he shocked that which control space.
+
+135
+00:23:10.500 --> 00:23:28.890
+Kiriakos Vlahos: And they see all the stuff defining the data model, we can see also you did help here in relation to the identifier, for example, date, we can say some of the help regarding date and data, we can see some help maps here, and so on.
+
+136
+00:23:30.150 --> 00:23:33.660
+Kiriakos Vlahos: So in my case, I just want to import the date.
+
+137
+00:23:35.670 --> 00:23:37.380
+Kiriakos Vlahos: And then.
+
+138
+00:23:39.270 --> 00:23:50.310
+Kiriakos Vlahos: I want to let's say use the today function of date, so I just started typing in your variable here today equals.
+
+139
+00:23:52.770 --> 00:23:54.210
+Kiriakos Vlahos: They don't.
+
+140
+00:23:55.620 --> 00:24:05.820
+Kiriakos Vlahos: And I want to use the today function, I start typing a couple of letters, and this is what they want so arm, that is completed.
+
+141
+00:24:08.910 --> 00:24:09.630
+Kiriakos Vlahos: and
+
+142
+00:24:10.800 --> 00:24:20.370
+Kiriakos Vlahos: disaffection so I just stayed with the open parentheses they get automatic bracket completion, so we close bracket is tied to the magically.
+
+143
+00:24:22.050 --> 00:24:35.760
+Kiriakos Vlahos: And then I just want, in this case not is that when I press enter my code is automatically indented so i'm done the standards that they will type in new lines in this block of code.
+
+144
+00:24:36.930 --> 00:24:40.830
+Kiriakos Vlahos: By scripture and automatically dense the next slide.
+
+145
+00:24:42.330 --> 00:24:45.450
+Kiriakos Vlahos: So in this case I want, I will just say bring.
+
+146
+00:24:46.590 --> 00:24:47.670
+Kiriakos Vlahos: Two day.
+
+147
+00:24:48.900 --> 00:24:49.530
+Kiriakos Vlahos: dot.
+
+148
+00:24:51.000 --> 00:24:53.340
+Kiriakos Vlahos: And let's have one bring the current year.
+
+149
+00:25:00.690 --> 00:25:04.650
+Kiriakos Vlahos: And let's go code completion works okay so basically.
+
+150
+00:25:06.330 --> 00:25:16.110
+Kiriakos Vlahos: What you get, let me just actually forgot to this making the quarter is big big big bigger So you can see better, there are many ways of doing that, through the interruptions.
+
+151
+00:25:17.490 --> 00:25:27.660
+Kiriakos Vlahos: i'm going to be increasing the font size by pressing control mouse will up so basically now I hope you can see better to go some type.
+
+152
+00:25:30.210 --> 00:25:43.380
+Kiriakos Vlahos: of numbers, nobody a human save is fine i'm just like opening new buffer buffer types of both, and I cannot just throughout the code and.
+
+153
+00:25:44.010 --> 00:25:55.920
+Kiriakos Vlahos: running the golden was pressing this run button or using the run menu, I was just around the code and in the output window, you can see the result of running the script.
+
+154
+00:25:57.330 --> 00:26:07.980
+Kiriakos Vlahos: The here today's 2022.
+
+155
+00:26:09.060 --> 00:26:16.530
+Kiriakos Vlahos: Another feature or form of of by script, there is the fact that you get got hints, for example.
+
+156
+00:26:18.090 --> 00:26:19.440
+Kiriakos Vlahos: If I hover the.
+
+157
+00:26:21.780 --> 00:26:34.830
+Kiriakos Vlahos: mouse on top of the today function it tells me how today's defined and it tells you where it's I can define it is defined in line 833 over the file data.
+
+158
+00:26:35.910 --> 00:26:41.730
+Kiriakos Vlahos: And like yeah I can either start or even I control click on today.
+
+159
+00:26:42.750 --> 00:26:45.390
+Kiriakos Vlahos: To go to the definition of that function.
+
+160
+00:26:47.610 --> 00:27:02.460
+Kiriakos Vlahos: And I can see here that today is using a function calls from timestamp well it's just a ball, but just to demonstrate that if I click on that it just moves to that particular.
+
+161
+00:27:04.560 --> 00:27:05.160
+Kiriakos Vlahos: function.
+
+162
+00:27:06.360 --> 00:27:18.060
+Kiriakos Vlahos: And then I could use the browsing buttons on the toolbar browse back and browse forward in this case browse back if I want to go back to the place where.
+
+163
+00:27:18.540 --> 00:27:31.110
+Kiriakos Vlahos: I started a brush twice and I get to the place where I started tracing the definitions of the different and then fights and if I want to move forward again in this.
+
+164
+00:27:32.670 --> 00:27:43.110
+Kiriakos Vlahos: same I can use the browse forward which takes me to be today function and lots more to go back to the front type stuff.
+
+165
+00:27:44.160 --> 00:27:45.750
+Kiriakos Vlahos: So this is some of the.
+
+166
+00:27:47.580 --> 00:27:48.510
+Kiriakos Vlahos: features.
+
+167
+00:27:49.740 --> 00:27:58.320
+Kiriakos Vlahos: Of the edit all God completion in particular control leap on an identifier, to go to its definition.
+
+168
+00:27:59.610 --> 00:28:01.260
+Kiriakos Vlahos: i'm and.
+
+169
+00:28:04.080 --> 00:28:08.100
+Kiriakos Vlahos: i'm brows brows forward to move to the.
+
+170
+00:28:10.410 --> 00:28:13.860
+Kiriakos Vlahos: Various to the to the to the different sections.
+
+171
+00:28:16.020 --> 00:28:20.310
+Kiriakos Vlahos: To the difference of definitions and tracing back the definitions of the identifiers.
+
+172
+00:28:21.420 --> 00:28:25.440
+Kiriakos Vlahos: Now one other feature on the Internet provides you for.
+
+173
+00:28:26.760 --> 00:28:39.090
+Kiriakos Vlahos: Some as David said, think of the two different parts of the same file, which are synchronized so if they go into view and say split it vertically now, I can see two versions of the same file.
+
+174
+00:28:40.680 --> 00:28:49.920
+Kiriakos Vlahos: And the nice thing about that is that the views are synchronized and I do work with the different parts of.
+
+175
+00:28:51.210 --> 00:29:08.040
+Kiriakos Vlahos: The two files and, for example, if I go here and I saying so, to hear days they do see here in the other part, that whatever I type here that synchronized and interviews.
+
+176
+00:29:09.690 --> 00:29:17.580
+Kiriakos Vlahos: This may help in what you would very long files and simultaneously hearing the different parts of the same file.
+
+177
+00:29:19.440 --> 00:29:25.380
+Kiriakos Vlahos: Here, let me just switch this off so split workspace vertically so.
+
+178
+00:29:26.790 --> 00:29:31.350
+Kiriakos Vlahos: mentally disable the split data hide sacramento.
+
+179
+00:29:33.180 --> 00:29:36.030
+Kiriakos Vlahos: And let me undo the status here so go back.
+
+180
+00:29:37.350 --> 00:29:38.520
+Kiriakos Vlahos: Many times.
+
+181
+00:29:41.460 --> 00:29:42.300
+Kiriakos Vlahos: So here we have.
+
+182
+00:29:44.490 --> 00:29:50.730
+Kiriakos Vlahos: Another feature is that this have you can see here the top view, so it is a bathroom files open.
+
+183
+00:29:52.050 --> 00:29:55.020
+Kiriakos Vlahos: And in fact the vice grip allows me to have.
+
+184
+00:29:58.350 --> 00:30:02.670
+Kiriakos Vlahos: two different sets of tabs and you can actually move files between them.
+
+185
+00:30:04.680 --> 00:30:15.720
+Kiriakos Vlahos: Okay, so basically didn't organize your work so called workspaces and you can save up to two workspaces here and again moving that back.
+
+186
+00:30:18.510 --> 00:30:26.010
+Kiriakos Vlahos: So that's another feature here to organize to allow you to view more than one files which can be independently one from another.
+
+187
+00:30:32.940 --> 00:30:37.290
+Kiriakos Vlahos: jalen me just hide the second workspace here and go back to just one.
+
+188
+00:30:39.690 --> 00:30:40.350
+Kiriakos Vlahos: and
+
+189
+00:30:43.590 --> 00:30:51.480
+Kiriakos Vlahos: So besides some of the basic features of of the editor there are some more advanced features which i'm going to be demonstrating, and the second.
+
+190
+00:30:54.060 --> 00:30:55.260
+Kiriakos Vlahos: Talking about in a second.
+
+191
+00:30:56.340 --> 00:30:58.890
+Kiriakos Vlahos: Okay, so let me just go back to the presentation here.
+
+192
+00:31:01.440 --> 00:31:14.130
+Kiriakos Vlahos: For example, things like gold templates and file templates what happens when you start new files um but I made a substitution again, but an advanced feature of will be covering.
+
+193
+00:31:15.720 --> 00:31:33.030
+Kiriakos Vlahos: All the drag and drop, you can drag and text from one file from a from an editor and drop it would say PowerPoint or mix of law worth or even within the to another file descriptor or to another position, the same as.
+
+194
+00:31:34.590 --> 00:31:42.060
+Kiriakos Vlahos: You can drop files from explorer in Dubai skater it supports fanta ligatures.
+
+195
+00:31:43.200 --> 00:31:45.930
+Kiriakos Vlahos: In case you're wondering what this is.
+
+196
+00:31:48.540 --> 00:31:50.790
+Kiriakos Vlahos: Make sure the current font.
+
+197
+00:31:52.230 --> 00:31:57.750
+Kiriakos Vlahos: unchanged, the phone to another form goals phaedra phaedra code.
+
+198
+00:32:03.360 --> 00:32:06.270
+Kiriakos Vlahos: I vote the interruptions by the right click.
+
+199
+00:32:07.980 --> 00:32:09.810
+Kiriakos Vlahos: i'll talk about interruptions in second.
+
+200
+00:32:11.040 --> 00:32:16.560
+Kiriakos Vlahos: In this phone support for link for ligatures which basically means me.
+
+201
+00:32:22.770 --> 00:32:23.850
+Kiriakos Vlahos: Just a second here.
+
+202
+00:32:28.920 --> 00:32:30.660
+Kiriakos Vlahos: There is an ad auction I need to.
+
+203
+00:32:33.390 --> 00:32:33.900
+Kiriakos Vlahos: Just check.
+
+204
+00:32:49.290 --> 00:32:50.550
+Kiriakos Vlahos: didn't change the font.
+
+205
+00:32:51.660 --> 00:32:54.420
+Kiriakos Vlahos: Or you want to change, they want to feel cold.
+
+206
+00:32:59.040 --> 00:33:03.270
+Kiriakos Vlahos: or cascadia going to do this, the new phone by Microsoft.
+
+207
+00:33:04.740 --> 00:33:12.030
+Kiriakos Vlahos: And buzz here okay and basically now what form ligature sorry, did you see here this.
+
+208
+00:33:13.410 --> 00:33:15.390
+Kiriakos Vlahos: One is that, for example, equal sequence.
+
+209
+00:33:18.120 --> 00:33:24.060
+Kiriakos Vlahos: You see, that or let's say, less than or equal to see how this is displayed in a different way.
+
+210
+00:33:25.590 --> 00:33:36.360
+Kiriakos Vlahos: By joining the two symbols, while you're reading you see how it would normally look like, but for records which allow you to use would say two or look at the other score here.
+
+211
+00:33:37.170 --> 00:33:46.710
+Kiriakos Vlahos: is, you see here the two other sports, but when I see if the line now you got let's say continuous line so better displaying the double underscore.
+
+212
+00:33:50.580 --> 00:34:03.090
+Kiriakos Vlahos: that's our that's what formula to solve, but you need to use a font that supports that, like the filler code or the cascadia code, it makes your code easier to read for the user to phone.
+
+213
+00:34:05.130 --> 00:34:06.150
+Kiriakos Vlahos: Okay i'm.
+
+214
+00:34:07.500 --> 00:34:12.090
+Kiriakos Vlahos: Going back to the features here to the other features on.
+
+215
+00:34:13.740 --> 00:34:21.240
+Kiriakos Vlahos: It does support many of the basket months the other actors have like vs code like moving code.
+
+216
+00:34:22.650 --> 00:34:24.540
+Kiriakos Vlahos: blocks of code up and down.
+
+217
+00:34:25.650 --> 00:34:29.400
+Kiriakos Vlahos: Copying blocks of code up and down and and stuff like that.
+
+218
+00:34:43.110 --> 00:34:47.130
+Kiriakos Vlahos: The ID by script is very customizable.
+
+219
+00:34:48.450 --> 00:34:57.270
+Kiriakos Vlahos: and performing relation Twitter, you can customize most of this stuff by going through the actor options.
+
+220
+00:34:59.430 --> 00:35:11.520
+Kiriakos Vlahos: If I click on data, for example, at the bottom, you see interruptions and this where you can change the font it contains the options here.
+
+221
+00:35:12.600 --> 00:35:14.970
+Kiriakos Vlahos: various options which are explaining the help file.
+
+222
+00:35:16.590 --> 00:35:18.720
+Kiriakos Vlahos: You can save the shortcuts.
+
+223
+00:35:20.370 --> 00:35:30.840
+Kiriakos Vlahos: In the editor you can see the default assignment or keystrokes to the different commands, but you can actually change them or remove them.
+
+224
+00:35:32.550 --> 00:35:33.240
+Kiriakos Vlahos: um.
+
+225
+00:35:34.260 --> 00:35:39.960
+Kiriakos Vlahos: The color theme is also fully customizable here, you can see here, for example, with different.
+
+226
+00:35:41.700 --> 00:35:44.340
+Kiriakos Vlahos: themes, you can actually use in the editor.
+
+227
+00:35:49.860 --> 00:36:04.740
+Kiriakos Vlahos: And finally, the syntax highlighting colors can be individual functions so, for example, once you're working with a given theme, you can call and say let's say one specific color, for example, how the.
+
+228
+00:36:05.880 --> 00:36:14.580
+Kiriakos Vlahos: brackets highlight how the function names are violated, and so on can change the colors so that's all fully customizable.
+
+229
+00:36:16.320 --> 00:36:18.030
+Kiriakos Vlahos: What is also customizable.
+
+230
+00:36:19.380 --> 00:36:24.060
+Kiriakos Vlahos: Is the theme of the ID the.
+
+231
+00:36:25.980 --> 00:36:36.780
+Kiriakos Vlahos: i'm sorry the style of the ID so the goal, so what you see, by default, is the winter State then slate Gray.
+
+232
+00:36:38.430 --> 00:36:47.700
+Kiriakos Vlahos: style but let's say, if you want, if we are blacks the style, we can use the windows 11 Doc style, for example, and apply that and now.
+
+233
+00:36:48.210 --> 00:37:06.030
+Kiriakos Vlahos: The whole coloring of the ad has been changed to where you dark or if you provide a light one, for example, again, I can go there and choose something like the um let's say the winters model light.
+
+234
+00:37:08.250 --> 00:37:19.770
+Kiriakos Vlahos: To see called looks like this and and so forth Okay, let me just going back to the default style, but the style is customizable this index coloring is sweet customizable.
+
+235
+00:37:20.970 --> 00:37:30.120
+Kiriakos Vlahos: And the final place where you find some ID options to to change and play with his other tools options ID options.
+
+236
+00:37:31.620 --> 00:37:47.880
+Kiriakos Vlahos: You see, the options are groups in the category I would just like to mention that the stage the code completion options this a range of options which affect how code completion takes place, for example, completed you died this actually off by default.
+
+237
+00:37:49.110 --> 00:38:01.920
+Kiriakos Vlahos: Galbraith bye Thank you keywords or the completed with one entry and so on, and he's dirty play with those and find the combination of options which suits your typing stylist.
+
+238
+00:38:08.850 --> 00:38:26.160
+Kiriakos Vlahos: The final thing I will be talking, today, very briefly, because debugging is covered more generally more extensively and other sessions is a quick run through the debugging capabilities of of bass get that.
+
+239
+00:38:28.290 --> 00:38:36.300
+Kiriakos Vlahos: i'm here, I have a file called three guess if people don't buy it you find this file in the session resources.
+
+240
+00:38:37.470 --> 00:38:52.080
+Kiriakos Vlahos: weeds calculates fibonacci numbers very carefully, now the the but that the sequence of numbers in sequence equates every number is the some of the previous ones.
+
+241
+00:38:53.760 --> 00:39:00.750
+Kiriakos Vlahos: And you can see here the definition of dysfunction so for any given a number.
+
+242
+00:39:01.890 --> 00:39:02.670
+Kiriakos Vlahos: and
+
+243
+00:39:03.750 --> 00:39:15.150
+Kiriakos Vlahos: What we do is we calculate divided for N minus one and four N minus two and we added together, this is the result of the function.
+
+244
+00:39:18.750 --> 00:39:25.470
+Kiriakos Vlahos: Just nothing here, but basically just show you the intelligence of that if I press enter here after the statement which is.
+
+245
+00:39:26.220 --> 00:39:36.360
+Kiriakos Vlahos: just see that the intimidation moves one level but because by script there understands that return statement is the last day of the month.
+
+246
+00:39:36.780 --> 00:39:54.450
+Kiriakos Vlahos: So if you see here some of the dentist be built it but going back to the back here to this function, so the event is less than or equal to 1601, the result is that, so the first elements are 01 and for any other value Fen.
+
+247
+00:39:55.680 --> 00:40:05.220
+Kiriakos Vlahos: The result of this function assembly this some of the environment for N minus one and then minus two.
+
+248
+00:40:06.780 --> 00:40:08.040
+Kiriakos Vlahos: As you can see here in the code.
+
+249
+00:40:09.330 --> 00:40:14.760
+Kiriakos Vlahos: And then, in the main function which gets executed by this powerful boat.
+
+250
+00:40:16.290 --> 00:40:28.290
+Kiriakos Vlahos: Which is defined as Dennis here divided in this case, then, and first of all, we check whether it's a valid value if it's negative we stop or if it's zero.
+
+251
+00:40:29.430 --> 00:40:38.520
+Kiriakos Vlahos: And then, what we do here is for every I in the range of 10, in other words from zero to nine.
+
+252
+00:40:39.600 --> 00:40:49.920
+Kiriakos Vlahos: We bring the result of this function so far you're on this function now, I can see here the sequence of people not seeing numbers.
+
+253
+00:40:53.160 --> 00:41:01.140
+Kiriakos Vlahos: Now what debugging is is basically is the process of discovering boxing boxing your code.
+
+254
+00:41:02.640 --> 00:41:07.680
+Kiriakos Vlahos: And what I will show you here is all the standard facilities for debugging.
+
+255
+00:41:09.420 --> 00:41:10.050
+Kiriakos Vlahos: um.
+
+256
+00:41:12.330 --> 00:41:14.910
+Kiriakos Vlahos: One thing you can do is step through the code.
+
+257
+00:41:16.140 --> 00:41:37.290
+Kiriakos Vlahos: And by script It provides the commands step into step over step out so f7 a faith, as if the fate or this month, so, for example, like press F seven here I get into the code here, and you see the execution pointer.
+
+258
+00:41:38.580 --> 00:41:41.820
+Kiriakos Vlahos: And if I keep on blessing of seven.
+
+259
+00:41:43.740 --> 00:41:45.270
+Kiriakos Vlahos: Again, get into the main function.
+
+260
+00:41:47.100 --> 00:41:48.870
+Kiriakos Vlahos: Here is the goal to the main function.
+
+261
+00:41:50.700 --> 00:41:51.450
+Kiriakos Vlahos: and
+
+262
+00:41:52.620 --> 00:42:04.230
+Kiriakos Vlahos: Here is the beginning of a block so because, and he checks, whether in terms is zero, I can see what is the value of terms.
+
+263
+00:42:05.520 --> 00:42:11.400
+Kiriakos Vlahos: By using the variables window just put some of the top, so we can see it.
+
+264
+00:42:13.110 --> 00:42:18.360
+Kiriakos Vlahos: So this is a view of the variables defined and if I click down, I can see.
+
+265
+00:42:22.170 --> 00:42:22.980
+Kiriakos Vlahos: Sorry, we love.
+
+266
+00:42:25.440 --> 00:42:26.520
+Kiriakos Vlahos: You one second.
+
+267
+00:42:32.670 --> 00:42:40.530
+Kiriakos Vlahos: Let me just get you on the execution, we see what happens so I started now let's say get into the brand statement.
+
+268
+00:42:41.940 --> 00:42:49.350
+Kiriakos Vlahos: And when I execute this print statement I will see the output printed out so i'm now stepping through the gold.
+
+269
+00:42:51.540 --> 00:42:52.200
+Kiriakos Vlahos: i'm.
+
+270
+00:42:53.550 --> 00:42:56.310
+Kiriakos Vlahos: Sad to go into this statement here.
+
+271
+00:42:57.570 --> 00:43:13.020
+Kiriakos Vlahos: I go into a place of seven to place into the recursive function which takes me there and it can see now the value of the variable X is zero because i'm actually in the first step of the duration.
+
+272
+00:43:14.340 --> 00:43:26.220
+Kiriakos Vlahos: i'll just carry on there and then N, which is zero I can always check the value of the variable by arresting the cursor on top of the identifier here so just do it again.
+
+273
+00:43:31.710 --> 00:43:33.570
+Kiriakos Vlahos: Soon, so it's my mouse.
+
+274
+00:43:36.360 --> 00:43:53.430
+Kiriakos Vlahos: So if you see here, and these are needed, environment, even a variable and here's the value of zero or I can see the variables window that n is equal to zero, so in that case the gold X from there, and now it goes to the next time.
+
+275
+00:43:55.800 --> 00:44:02.910
+Kiriakos Vlahos: So I keep on pressing your faith, I can see now I just become equal to one.
+
+276
+00:44:04.260 --> 00:44:11.100
+Kiriakos Vlahos: And if I trace into this one that's a function and will survive you're fun to see that in the variables window.
+
+277
+00:44:12.270 --> 00:44:13.680
+Kiriakos Vlahos: stepping into the code.
+
+278
+00:44:17.100 --> 00:44:17.970
+Kiriakos Vlahos: or during the one.
+
+279
+00:44:20.130 --> 00:44:24.060
+Kiriakos Vlahos: And now I would you know the value of Doers, we can see here.
+
+280
+00:44:25.980 --> 00:44:27.030
+Kiriakos Vlahos: A breath of seven.
+
+281
+00:44:32.340 --> 00:44:34.710
+Kiriakos Vlahos: going to the function and is now to.
+
+282
+00:44:35.880 --> 00:44:41.700
+Kiriakos Vlahos: And in this case the execution will skip the first statement and go to the else.
+
+283
+00:44:45.300 --> 00:44:50.400
+Kiriakos Vlahos: They saw the calculation of the result is going to be.
+
+284
+00:44:51.630 --> 00:45:00.780
+Kiriakos Vlahos: A recursive so we'll be calling the same function for N minus one, in other words one and then minus 200 zero.
+
+285
+00:45:01.890 --> 00:45:09.030
+Kiriakos Vlahos: And that will show you the sequence by showing another view for the call stuck.
+
+286
+00:45:11.520 --> 00:45:22.350
+Kiriakos Vlahos: They because that allows you to place the sequence of goals, so we started let's say if I double to here, we started in the call to the main function.
+
+287
+00:45:23.130 --> 00:45:36.540
+Kiriakos Vlahos: At the out of scope of this model then we went into the main function, we are inside the statement here and I went inside the castle so a prescriptive seven disobeys the execution.
+
+288
+00:45:39.330 --> 00:45:51.450
+Kiriakos Vlahos: And now you can see here the gold stock that i'm actually calling this function from the same function of the super simple and I can see here that n is one.
+
+289
+00:45:54.000 --> 00:45:57.270
+Kiriakos Vlahos: No, are you ready for this functions.
+
+290
+00:45:58.590 --> 00:46:03.300
+Kiriakos Vlahos: And then, this now is the second quarter the recursive function with n equals zero.
+
+291
+00:46:05.220 --> 00:46:18.420
+Kiriakos Vlahos: And again, this will return the value of zero the way before zero it was you know, and it would take me back to the main function So you see the state of execution because.
+
+292
+00:46:20.910 --> 00:46:28.590
+Kiriakos Vlahos: The other things I can do here is, I can put breakpoints into the gold, so if I click in the margin, I can see this red.
+
+293
+00:46:30.300 --> 00:46:37.230
+Kiriakos Vlahos: circle in the margin, this indicates that they have a breakpoint there, which means when they resume execution.
+
+294
+00:46:38.460 --> 00:46:41.700
+Kiriakos Vlahos: by pressing the resume button here.
+
+295
+00:46:42.840 --> 00:46:45.990
+Kiriakos Vlahos: Execution we go and stop in the next break point.
+
+296
+00:46:49.140 --> 00:47:04.500
+Kiriakos Vlahos: And when i'm actually happy with the way the codes executed, I can just remove the breakpoints and around the goal to the to the end and I can see here we produce out which, which is the same as the one.
+
+297
+00:47:08.970 --> 00:47:20.460
+Kiriakos Vlahos: So we saw some of the features regarding the binding break point the ability to step through the code step out of the gold step in over the gold go to the next statement.
+
+298
+00:47:21.600 --> 00:47:32.790
+Kiriakos Vlahos: On the gold stock which allows you to view the secrets of goals to the garden point of execution the hierarchy of goals, rather than.
+
+299
+00:47:34.590 --> 00:47:37.020
+Kiriakos Vlahos: The variables window with generally.
+
+300
+00:47:38.250 --> 00:47:46.320
+Kiriakos Vlahos: over here which allows you to see the values of the different variables and the execution frame.
+
+301
+00:47:47.340 --> 00:47:52.980
+Kiriakos Vlahos: Also, the global variables and the other thing I haven't talked about is what is.
+
+302
+00:47:54.480 --> 00:47:57.360
+Kiriakos Vlahos: which allow you to define the words, for example here if I.
+
+303
+00:48:00.990 --> 00:48:02.970
+Kiriakos Vlahos: write deacon and say.
+
+304
+00:48:06.030 --> 00:48:10.140
+Kiriakos Vlahos: So you know just if I click here and see other words.
+
+305
+00:48:11.190 --> 00:48:20.370
+Kiriakos Vlahos: And I can take endurance, for example, I can add a words so whenever I stopped with execution, I can immediately see the Bible.
+
+306
+00:48:22.980 --> 00:48:31.260
+Kiriakos Vlahos: Okay, so just to give you a quick overview of the facilities of base paper in relation to the bagging.
+
+307
+00:48:32.610 --> 00:48:36.840
+Kiriakos Vlahos: and basically This is all I wanted to cover today.
+
+308
+00:48:38.010 --> 00:48:38.700
+Kiriakos Vlahos: I mean just.
+
+309
+00:48:41.970 --> 00:48:47.280
+Kiriakos Vlahos: Okay, just a quick recap, of what we covered so this was the introduction section basically after.
+
+310
+00:48:48.840 --> 00:48:53.970
+Kiriakos Vlahos: We discussed how to install the software, we discussed the user interface.
+
+311
+00:48:55.620 --> 00:49:04.050
+Kiriakos Vlahos: In fact, one of the things I didn't demonstrate actually is the way you saw that here how you can rearrange the windows by dragging and dropping.
+
+312
+00:49:05.160 --> 00:49:15.420
+Kiriakos Vlahos: So this is a customizable user interface when you exit and re entered by sceptre it remembers the layout you've actually chosen.
+
+313
+00:49:18.600 --> 00:49:26.910
+Kiriakos Vlahos: We then discuss the features of the door code completion i'm fine definition, this also parameter completion.
+
+314
+00:49:28.050 --> 00:49:45.960
+Kiriakos Vlahos: And we end up discussing the basic debugging the budget features, the way didn't actually today's bags by stepping through the code tracing into functions tracing out are expecting the execution frame.
+
+315
+00:49:47.010 --> 00:50:00.570
+Kiriakos Vlahos: viewing the gold stock of the execution and so forth, we still I wanted to cover today, thank you very much for attending if you're watching the live session.
+
+316
+00:50:02.160 --> 00:50:13.050
+Kiriakos Vlahos: Then you're getting us a question ask questions in the discord server has been provided, and I will try my best to provide yes, thank you very much indeed.
+

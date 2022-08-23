@@ -1,0 +1,1402 @@
+WEBVTT
+
+1
+00:00:06.180 --> 00:00:17.100
+Kiriakos Vlahos: hello, and welcome to the coding boot camp, my name is Q yeah because of law hosts and I will be talking about Python for Delphi.
+
+2
+00:00:18.840 --> 00:00:26.310
+Kiriakos Vlahos: Delphi library, we can be used to integrate Python and Delphi together.
+
+3
+00:00:29.070 --> 00:00:35.760
+Kiriakos Vlahos: i'll start by introducing myself so i'm my main job is.
+
+4
+00:00:36.990 --> 00:00:50.190
+Kiriakos Vlahos: A university professor teaching courses in management science and data analytics but at the same time mum an open source enthusiast with more than 35 years of programming experience.
+
+5
+00:00:52.500 --> 00:00:56.250
+Kiriakos Vlahos: The main programming language I use is Delphi in Python.
+
+6
+00:00:58.050 --> 00:01:15.000
+Kiriakos Vlahos: I am the developer of bias character, a popular Python ID developed in Delphi and also a developer maintainer of a number of different Delphi libraries that most notably.
+
+7
+00:01:16.470 --> 00:01:18.300
+Kiriakos Vlahos: Python for for Delphi.
+
+8
+00:01:20.280 --> 00:01:21.690
+Kiriakos Vlahos: We can see here my.
+
+9
+00:01:23.070 --> 00:01:24.570
+Kiriakos Vlahos: homepage to github.
+
+10
+00:01:25.860 --> 00:01:29.220
+Kiriakos Vlahos: query to find more about my programming activities and projects.
+
+11
+00:01:33.360 --> 00:01:37.140
+Kiriakos Vlahos: And here is what we will cover today this session.
+
+12
+00:01:38.370 --> 00:01:39.390
+Kiriakos Vlahos: First of all, this session.
+
+13
+00:01:42.240 --> 00:01:52.830
+Kiriakos Vlahos: is of interest to people that know how to program in Delphi and we'd like to investigate Gray secrets, they can exploit.
+
+14
+00:01:53.880 --> 00:01:58.800
+Kiriakos Vlahos: The power of Python in in your Delphi applications.
+
+15
+00:01:59.880 --> 00:02:05.370
+Kiriakos Vlahos: So there's what we'll be covering today we've stopped by discussing the motivation.
+
+16
+00:02:07.080 --> 00:02:15.690
+Kiriakos Vlahos: Why would you like to do that and the potential synergies that yet by having Delphi and by the working together.
+
+17
+00:02:18.300 --> 00:02:29.940
+Kiriakos Vlahos: A brief introduction by phone in case you're new to Python and then I will be providing an overview of Python for Delphi will be talking about the installation options.
+
+18
+00:02:30.660 --> 00:02:49.080
+Kiriakos Vlahos: And then the remaining of this session will be a series of demos, first of all, showing how you can run Python code within Delphi and then how we can actually expose Delphi functions have to buy from working with your application.
+
+19
+00:02:53.970 --> 00:03:06.120
+Kiriakos Vlahos: Okay um based on the Why would you care as a Delphi developer well, you probably are aware about of the massive popularity of Python.
+
+20
+00:03:07.500 --> 00:03:12.510
+Kiriakos Vlahos: Python has become the language of choice for data analytics and machine learning.
+
+21
+00:03:13.950 --> 00:03:19.770
+Kiriakos Vlahos: And is rapidly replacing Java, as the core programming language in computer science degrees.
+
+22
+00:03:21.780 --> 00:03:30.000
+Kiriakos Vlahos: there's a massive number of Python packages available i'm around 250,000 and bye bye.
+
+23
+00:03:31.020 --> 00:03:41.700
+Kiriakos Vlahos: and basically all the latest and greatest Open Source libraries developed in C or c++ are all made available to bite on immediately.
+
+24
+00:03:44.250 --> 00:03:57.330
+Kiriakos Vlahos: i'm by them is perceived to be a language productive language and also easy to learn, learn and then we're going to see he has complimentary skills to strengths to the Delphi.
+
+25
+00:03:58.890 --> 00:03:59.460
+Kiriakos Vlahos: um.
+
+26
+00:04:00.960 --> 00:04:12.360
+Kiriakos Vlahos: So some of the use cases of sets integration, one reason to using by coming into a publication, would be to gain access to this vast library or.
+
+27
+00:04:14.790 --> 00:04:17.640
+Kiriakos Vlahos: To the vast number of Python libraries available.
+
+28
+00:04:18.930 --> 00:04:25.500
+Kiriakos Vlahos: Another use case might be to use Python as a scripting language for the applications.
+
+29
+00:04:27.540 --> 00:04:39.960
+Kiriakos Vlahos: But also, you can think about the other way around you got some Delphi code which you want to make available to Python applications, and you can do that using by her for Delphi and.
+
+30
+00:04:40.980 --> 00:04:53.970
+Kiriakos Vlahos: Last but not least, Delphi strength, one of the strengths of Delphi is the Arad aspects are up rapid application development and gooey applications graphical user interface applications.
+
+31
+00:04:54.660 --> 00:05:07.650
+Kiriakos Vlahos: it's an area in which Python is week, so you might think about development, for example, the gui of your application Delphi but the the actual logic is developed in in Python.
+
+32
+00:05:12.240 --> 00:05:14.010
+Kiriakos Vlahos: i'm just.
+
+33
+00:05:17.070 --> 00:05:26.940
+Kiriakos Vlahos: This graph shows you the recent history, there is and trends in terms of popularity Python is rapidly becoming like the most popular language on the planet.
+
+34
+00:05:27.870 --> 00:05:37.740
+Kiriakos Vlahos: And bacon is actually an old language is nothing new one, but this surge of applied studies happening around 2016, as you can see here.
+
+35
+00:05:39.840 --> 00:05:51.960
+Kiriakos Vlahos: And the main driver behind this this popularity is the fact that has become the language of choice for data mining and data analytics applications.
+
+36
+00:05:53.670 --> 00:06:09.660
+Kiriakos Vlahos: It you see also here in this graph that Python is gradually has been overtaken Java, is the language of choice, this from Google trends, so you the interest of time in different in different languages.
+
+37
+00:06:13.230 --> 00:06:13.830
+Kiriakos Vlahos: and
+
+38
+00:06:18.390 --> 00:06:21.480
+Kiriakos Vlahos: This is a combination between Delphi in Python.
+
+39
+00:06:23.160 --> 00:06:33.990
+Kiriakos Vlahos: In different dimensions in terms of maturity, there was quite a languages Delphi was the first version Delphi one was introduced in 1995.
+
+40
+00:06:35.190 --> 00:06:43.350
+Kiriakos Vlahos: But Delphi is basically a flavor of object Pascal which is even older than that introduced in 1970.
+
+41
+00:06:44.580 --> 00:06:52.830
+Kiriakos Vlahos: And the other thing by that is also quite old it was introduced in 1989 so it's been around for more than 30 years is not you.
+
+42
+00:06:54.870 --> 00:07:08.490
+Kiriakos Vlahos: they're both object oriented languages so that's actually a common factor and they're both available in different platforms windows Linux and so on, and Michael wes.
+
+43
+00:07:10.320 --> 00:07:11.040
+Kiriakos Vlahos: i'm.
+
+44
+00:07:12.690 --> 00:07:16.350
+Kiriakos Vlahos: Now they'll fight is the reputation of being in variables language.
+
+45
+00:07:17.430 --> 00:07:23.070
+Kiriakos Vlahos: You do you need blocks with beginners and so on, what is Python is this.
+
+46
+00:07:24.870 --> 00:07:32.010
+Kiriakos Vlahos: becoming reality that the US is white space for inundation other words for.
+
+47
+00:07:33.240 --> 00:07:34.590
+Kiriakos Vlahos: Separating blocks of code.
+
+48
+00:07:37.080 --> 00:07:40.080
+Kiriakos Vlahos: i'm by from he has.
+
+49
+00:07:43.290 --> 00:07:45.630
+Kiriakos Vlahos: and interactive interpreter.
+
+50
+00:07:47.010 --> 00:08:03.570
+Kiriakos Vlahos: which can be used to test code, which is actually been useful, will, if you actually use that you can prototype code, you can test things and get immediate answers, which is something that a combined language like Delphi doesn't have.
+
+51
+00:08:05.760 --> 00:08:07.770
+Kiriakos Vlahos: um I think.
+
+52
+00:08:09.240 --> 00:08:25.590
+Kiriakos Vlahos: In Pascal is a strongly typed language, you have to define type whether it's an injury double and so on, for every variable your program queries Python is not typed in fact it's what we call dynamic type okay so basically.
+
+53
+00:08:28.980 --> 00:08:43.590
+Kiriakos Vlahos: that's a big difference in history publications recently there's a trend to try to add some typing facilities to buy the beta language, but these are not enforced, and you don't have to use them.
+
+54
+00:08:44.850 --> 00:08:48.390
+Kiriakos Vlahos: And in fact is not combine the text at the moment.
+
+55
+00:08:50.370 --> 00:08:50.850
+Kiriakos Vlahos: Of.
+
+56
+00:08:51.900 --> 00:08:57.090
+Kiriakos Vlahos: Death I am Pascal are combined languages, so you produced by their code.
+
+57
+00:08:59.070 --> 00:09:13.140
+Kiriakos Vlahos: The diet it's a specific platform queries Python is producing byte code gets executed them, and this is quite a lengthy negation regarding the speed of the two languages.
+
+58
+00:09:14.490 --> 00:09:18.060
+Kiriakos Vlahos: So performance wise Delphi is pretty fast language.
+
+59
+00:09:19.290 --> 00:09:22.590
+Kiriakos Vlahos: we aspire to Python is perceived to be slow, as women, see later.
+
+60
+00:09:24.360 --> 00:09:32.760
+Kiriakos Vlahos: Another area is that is multi threading nowadays we have access to many course in the cpu.
+
+61
+00:09:34.350 --> 00:09:43.350
+Kiriakos Vlahos: And unfortunately Python doesn't actually use easily the number of cpus available.
+
+62
+00:09:44.400 --> 00:09:55.140
+Kiriakos Vlahos: Because of something called the deal, the global interpreter lock so at any point in time, only one of the course will be working for your Program.
+
+63
+00:09:56.520 --> 00:10:07.350
+Kiriakos Vlahos: There are ways around that but he's not as simple as it is in other languages for is in Delphi they use the course there are ways of doing pilot program, for example.
+
+64
+00:10:09.330 --> 00:10:24.240
+Kiriakos Vlahos: And finally Delphi is is famous for each ratfish features rapid application development and development of applications and that's an effort Python is not very strong is there other week.
+
+65
+00:10:29.250 --> 00:10:29.790
+Kiriakos Vlahos: Now.
+
+66
+00:10:34.470 --> 00:10:39.480
+Kiriakos Vlahos: What does the Python for Delphi library offer I mean this is a high level overview.
+
+67
+00:10:41.700 --> 00:10:56.580
+Kiriakos Vlahos: So firstly you got access to the Python API so basically that's a low level way of using Python in other applications in other languages, and in this case in in Delphi.
+
+68
+00:10:58.470 --> 00:11:16.740
+Kiriakos Vlahos: In addition, that it offers a high level bi directional in the interaction with bite so easy to use Python code is it in your death I programs and Python can easily use Delphi functions and classes and objects.
+
+69
+00:11:18.810 --> 00:11:22.320
+Kiriakos Vlahos: That fight buy from us identify the objects of glasses so.
+
+70
+00:11:24.390 --> 00:11:32.040
+Kiriakos Vlahos: um this is based on on two things to use the high level of integration to use.
+
+71
+00:11:33.570 --> 00:11:38.940
+Kiriakos Vlahos: Python objects easily enough a petition there's a model model called verified.
+
+72
+00:11:40.140 --> 00:11:44.220
+Kiriakos Vlahos: Which is based on the use of custom variance if you came across those.
+
+73
+00:11:45.390 --> 00:11:55.860
+Kiriakos Vlahos: which allows you very easy very high level exploitation of bacon optics in Denver, and at the same time, towards the other direction.
+
+74
+00:11:58.170 --> 00:12:01.740
+Kiriakos Vlahos: The library provides ways of wrapping.
+
+75
+00:12:02.820 --> 00:12:11.190
+Kiriakos Vlahos: Delphi classes are recorded to the interfaces so that can be directly use in your base in the audience and baby goat.
+
+76
+00:12:13.350 --> 00:12:17.970
+Kiriakos Vlahos: Five in the library provides ways to create the so called extension models.
+
+77
+00:12:20.070 --> 00:12:26.460
+Kiriakos Vlahos: That can be used directly by by for the without even giving access to Delphi.
+
+78
+00:12:32.370 --> 00:12:32.940
+Kiriakos Vlahos: um.
+
+79
+00:12:34.230 --> 00:12:41.520
+Kiriakos Vlahos: Do you some Python for Delphi unit adult version exit or later.
+
+80
+00:12:42.540 --> 00:13:05.730
+Kiriakos Vlahos: And it was a platinum support you have support for windows 3264 bit applications, but you can also use Linux and MAC os recently they there is also work has been done to allow you to develop android applications Delphi android applications using Python.
+
+81
+00:13:07.530 --> 00:13:09.900
+Kiriakos Vlahos: So there's a new target there in the platform support.
+
+82
+00:13:14.610 --> 00:13:25.140
+Kiriakos Vlahos: The library consists of mostly non visual components, so that means that can be used equally by vizio or fms applications.
+
+83
+00:13:27.060 --> 00:13:39.450
+Kiriakos Vlahos: And the library is also compatible with the Lazarus free object Pascal ID and fpc the fpc compiler the free Pascal compiler.
+
+84
+00:13:42.270 --> 00:13:48.780
+Kiriakos Vlahos: um these are some of the main components provided by the library path Python engine is the central one.
+
+85
+00:13:49.980 --> 00:13:56.850
+Kiriakos Vlahos: And there, then there is some Python modern that allows you to create Python modules using Delphi code.
+
+86
+00:13:58.050 --> 00:14:02.010
+Kiriakos Vlahos: Python type which allows you to create by from dice using built a code.
+
+87
+00:14:03.210 --> 00:14:05.130
+Kiriakos Vlahos: And then these greenwood output.
+
+88
+00:14:06.780 --> 00:14:09.930
+Kiriakos Vlahos: components which allow you to.
+
+89
+00:14:10.950 --> 00:14:28.650
+Kiriakos Vlahos: Day very direct the output of a Python module let's say to a DEMO that's the green without wood or using some callback procedures to process the bye for now good in your application and do whatever you need with that.
+
+90
+00:14:30.450 --> 00:14:34.260
+Kiriakos Vlahos: By the rapper is the component which allows you to wrap.
+
+91
+00:14:37.440 --> 00:14:40.740
+Kiriakos Vlahos: delphine classes interfaces records.
+
+92
+00:14:42.060 --> 00:14:57.930
+Kiriakos Vlahos: In a way that they can be directly used by beta and finally invited by this is not a component is a unit Delphi unit which provides high level access to buy fun objects from Delphi using government buildings.
+
+93
+00:15:02.280 --> 00:15:05.310
+Kiriakos Vlahos: Of the project is costing a github.
+
+94
+00:15:06.900 --> 00:15:07.650
+Kiriakos Vlahos: and
+
+95
+00:15:08.730 --> 00:15:29.670
+Kiriakos Vlahos: To use Python for Delphi in a vacation you first need to install it by from distribution into your completed their different patents divisions, the official has come from the bison the dog, but there are others which provide the GM with a number of.
+
+96
+00:15:30.690 --> 00:15:33.360
+Kiriakos Vlahos: Data analytics libraries such anaconda.
+
+97
+00:15:34.830 --> 00:15:39.030
+Kiriakos Vlahos: Whatever you use your first of all need to download the distribution.
+
+98
+00:15:40.170 --> 00:15:42.450
+Kiriakos Vlahos: and installing into your machine.
+
+99
+00:15:44.040 --> 00:15:53.940
+Kiriakos Vlahos: Now Python comes in two flavors in windows, it goes in set up to 64 bits and the 64 bits is recommended.
+
+100
+00:15:55.980 --> 00:16:03.840
+Kiriakos Vlahos: And the way you stopped by and the different ways, but you just download the stolen you're adding in your windows machine.
+
+101
+00:16:05.790 --> 00:16:06.420
+Kiriakos Vlahos: and
+
+102
+00:16:07.470 --> 00:16:22.050
+Kiriakos Vlahos: You can also install a number of different third party libraries biker libraries and what they're using the package installer of Bible, which is called be, for example, a popular library for by that is done by.
+
+103
+00:16:23.160 --> 00:16:32.370
+Kiriakos Vlahos: And from the command prompt the view issue the command pip is stolen by it will install a love by in your bison installation.
+
+104
+00:16:36.360 --> 00:16:39.390
+Kiriakos Vlahos: You share Python installed on.
+
+105
+00:16:40.410 --> 00:16:43.080
+Kiriakos Vlahos: There you have it installed by from for Delphi.
+
+106
+00:16:45.150 --> 00:16:46.680
+Kiriakos Vlahos: The different installation options.
+
+107
+00:16:48.240 --> 00:16:51.210
+Kiriakos Vlahos: And this one is to use the getting package manager.
+
+108
+00:16:53.130 --> 00:16:58.020
+Kiriakos Vlahos: And by phone and vital for Delphi is available in in get it.
+
+109
+00:16:59.730 --> 00:17:02.250
+Kiriakos Vlahos: And that would be to just use the directing the.
+
+110
+00:17:04.560 --> 00:17:07.830
+Kiriakos Vlahos: The latest version from the github rebel.
+
+111
+00:17:09.240 --> 00:17:21.480
+Kiriakos Vlahos: um Why would you like to do that, that would give you access to the latest developments and bug fixes because it takes time for those filter into a new yet in package management version.
+
+112
+00:17:23.070 --> 00:17:29.550
+Kiriakos Vlahos: And to do that, you first need by the clone or download the zip the repository.
+
+113
+00:17:31.350 --> 00:17:32.190
+Kiriakos Vlahos: And then.
+
+114
+00:17:34.260 --> 00:17:44.760
+Kiriakos Vlahos: There are two ways of going about what is the governor way would be to start the US today he really started here you are the source sub directories.
+
+115
+00:17:46.860 --> 00:17:52.260
+Kiriakos Vlahos: To the library path for the targeting one for 72 bit and 64 bits.
+
+116
+00:17:53.940 --> 00:18:07.200
+Kiriakos Vlahos: And finally, you open the group project budget group called before the bonuses um and then install first of all of the.
+
+117
+00:18:08.760 --> 00:18:19.320
+Kiriakos Vlahos: Design packets, so the the main design package this hill beta and there are two further packages this yellow Python the cl and this helped by from the permits.
+
+118
+00:18:20.970 --> 00:18:24.360
+Kiriakos Vlahos: We provide integration with vcs fx.
+
+119
+00:18:26.340 --> 00:18:30.240
+Kiriakos Vlahos: Now, instead of doing steps to to for in this list.
+
+120
+00:18:31.260 --> 00:18:56.460
+Kiriakos Vlahos: Of the rapport influence and it's taller which does everything automatically adds the bus to the the library path and installs all the components and that can be found, is a program called multi stolen, and it can be found in the stone sub directory or the Bible for the vita.
+
+121
+00:19:00.150 --> 00:19:03.150
+Kiriakos Vlahos: At this days if you're watching this.
+
+122
+00:19:05.220 --> 00:19:07.560
+Kiriakos Vlahos: it's called them on your own with your own pace.
+
+123
+00:19:08.940 --> 00:19:21.150
+Kiriakos Vlahos: You can Polish the presentation combos the um the video and install the components and after you do that, you can carry on.
+
+124
+00:19:33.240 --> 00:19:42.240
+Kiriakos Vlahos: OK, so now, I will have been running a series of demos, which will take you through the steps of using bacon for Delphi.
+
+125
+00:19:43.320 --> 00:19:54.780
+Kiriakos Vlahos: started with a simple DEMO that looks like this it includes an editor programming either cnet it's a company called synetic.
+
+126
+00:19:56.130 --> 00:20:01.140
+Kiriakos Vlahos: To provide syntax highlighting for Python and amendments used for the output.
+
+127
+00:20:02.400 --> 00:20:04.260
+Kiriakos Vlahos: And then just a single button called run.
+
+128
+00:20:05.520 --> 00:20:21.180
+Kiriakos Vlahos: So um you just press you type some gold in the in the editor and then you press around and you see the results of their on appearing in the memo that's that's the simple idea, so this will show you will demonstrate.
+
+129
+00:20:22.320 --> 00:20:23.580
+Kiriakos Vlahos: How you actually.
+
+130
+00:20:24.750 --> 00:20:28.410
+Kiriakos Vlahos: i'm around Python code inside Delphi.
+
+131
+00:20:30.390 --> 00:20:38.700
+Kiriakos Vlahos: And by the way, all the source code will be i'll be development today here with you is available at the.
+
+132
+00:20:39.720 --> 00:20:41.850
+Kiriakos Vlahos: boot camp github repo.
+
+133
+00:20:43.500 --> 00:20:47.910
+Kiriakos Vlahos: And i'm again but dumb I would be doing this from scratch.
+
+134
+00:20:49.590 --> 00:20:55.950
+Kiriakos Vlahos: So I will be developing this application from scratch so i'm now switching to Delphi.
+
+135
+00:21:09.780 --> 00:21:16.050
+Kiriakos Vlahos: And I will be just starting new vcr package so here so.
+
+136
+00:21:17.100 --> 00:21:19.350
+Kiriakos Vlahos: file new.
+
+137
+00:21:21.840 --> 00:21:23.040
+Kiriakos Vlahos: windows, we sell a petition.
+
+138
+00:21:27.900 --> 00:21:31.050
+Kiriakos Vlahos: And, initially, I would just add the banner at the bottom.
+
+139
+00:21:41.040 --> 00:21:44.370
+Kiriakos Vlahos: which we do the button to run the code.
+
+140
+00:21:45.810 --> 00:21:47.670
+Kiriakos Vlahos: So the alignment, that would be.
+
+141
+00:21:50.430 --> 00:21:54.570
+Kiriakos Vlahos: All bottom and I will be adding a battle to this.
+
+142
+00:21:59.250 --> 00:22:01.710
+Kiriakos Vlahos: And the caption of the button let's say wouldn't be done.
+
+143
+00:22:05.220 --> 00:22:07.170
+Kiriakos Vlahos: we've been called to this button later.
+
+144
+00:22:08.370 --> 00:22:27.060
+Kiriakos Vlahos: And for typing the Python code of lot a cnet component um I will skip the headers that we saw in this like save time so synetic component ups I don't want to say them so ups.
+
+145
+00:22:29.220 --> 00:22:30.600
+Kiriakos Vlahos: and downs.
+
+146
+00:22:33.180 --> 00:22:37.200
+Kiriakos Vlahos: So scenario I will add this genetic component to the forum.
+
+147
+00:22:38.280 --> 00:22:39.090
+Kiriakos Vlahos: and
+
+148
+00:22:42.120 --> 00:22:45.270
+Kiriakos Vlahos: I will align this all up.
+
+149
+00:22:48.510 --> 00:22:53.910
+Kiriakos Vlahos: I will delete this default text in the components, so I go to lines.
+
+150
+00:22:57.570 --> 00:22:59.940
+Kiriakos Vlahos: And just move on that stuff so it's empty.
+
+151
+00:23:01.440 --> 00:23:02.160
+Kiriakos Vlahos: As the moment.
+
+152
+00:23:03.600 --> 00:23:13.020
+Kiriakos Vlahos: And I will be changing the form that would make the font larger, so the size let's say size.
+
+153
+00:23:20.190 --> 00:23:22.290
+Kiriakos Vlahos: Of the splitter below that.
+
+154
+00:23:24.000 --> 00:23:27.990
+Kiriakos Vlahos: So we can actually resize, the editor.
+
+155
+00:23:31.950 --> 00:23:34.770
+Kiriakos Vlahos: And the one liner that beam all Doc.
+
+156
+00:23:37.050 --> 00:23:41.520
+Kiriakos Vlahos: And finally we'll be adding a memo which will be useful, the output.
+
+157
+00:23:45.990 --> 00:23:47.400
+Kiriakos Vlahos: alignment so gland.
+
+158
+00:23:49.110 --> 00:23:51.360
+Kiriakos Vlahos: And again, I will do it the default text.
+
+159
+00:24:01.980 --> 00:24:05.550
+Kiriakos Vlahos: and making the font size of the larger so i'll say is different, as well.
+
+160
+00:24:10.170 --> 00:24:12.990
+Kiriakos Vlahos: So I will use a fixed amount of space want.
+
+161
+00:24:14.880 --> 00:24:16.380
+Kiriakos Vlahos: And besides again.
+
+162
+00:24:20.580 --> 00:24:21.630
+Kiriakos Vlahos: Okay i'm.
+
+163
+00:24:23.250 --> 00:24:33.120
+Kiriakos Vlahos: just completed, first part, for this in there, that I need to add this in the sky lighter, so I will use the providers let's say later this in Python soon.
+
+164
+00:24:37.980 --> 00:24:41.490
+Kiriakos Vlahos: A link VI editor highlighter option.
+
+165
+00:24:45.780 --> 00:24:46.440
+Kiriakos Vlahos: To.
+
+166
+00:24:47.730 --> 00:24:54.750
+Kiriakos Vlahos: That sinners highlighter and also be using i'll be adding something called the pie from behavior.
+
+167
+00:24:56.550 --> 00:25:01.980
+Kiriakos Vlahos: snake bite and behavior basically what this is is a link to the editor.
+
+168
+00:25:03.120 --> 00:25:10.770
+Kiriakos Vlahos: This allows you to auto intend the code, so it makes it easier to type Python code in s&m component.
+
+169
+00:25:12.960 --> 00:25:23.850
+Kiriakos Vlahos: When they were seen anything is available through through github sorry through get it as well, so you can install this new component using the getting package manager of Delphi.
+
+170
+00:25:25.710 --> 00:25:35.070
+Kiriakos Vlahos: And where was where Now we just implemented the Python components and the main components that are going to be using is Python engine.
+
+171
+00:25:43.350 --> 00:25:47.790
+Kiriakos Vlahos: which basically at runtime will load the Python dll.
+
+172
+00:25:48.840 --> 00:25:52.170
+Kiriakos Vlahos: and allows allows us to interact with by.
+
+173
+00:25:53.670 --> 00:25:58.740
+Kiriakos Vlahos: There are many components of Python anything I want to changing any of those i'll just use the default.
+
+174
+00:25:59.280 --> 00:26:16.530
+Kiriakos Vlahos: But let me just point out one of the properties, you need to be aware of is called us last known version, basically, this means that it would you like utilizes it will utilize the latest version of Python available in your computer.
+
+175
+00:26:18.000 --> 00:26:38.610
+Kiriakos Vlahos: Now, if you want to use a specific beta version or a version of Python which is not registered like an institution that our properties, such as the dealer name and the dll path allows you to point to the specific vitamin D level, you would like to wish.
+
+176
+00:26:40.050 --> 00:26:44.370
+Kiriakos Vlahos: But so i'm just going to use the latest version available on my computer.
+
+177
+00:26:46.320 --> 00:26:49.710
+Kiriakos Vlahos: And the other component, I will actually add.
+
+178
+00:26:50.820 --> 00:26:54.390
+Kiriakos Vlahos: Is the device or the component.
+
+179
+00:26:59.220 --> 00:27:19.440
+Kiriakos Vlahos: Going in without a component which basically allows me the very the bye for now good to remember component so here in terms of fault, but I wouldn't just select the memo and in bacon engine, I will actually say that the without the scandal by that component.
+
+180
+00:27:21.930 --> 00:27:32.820
+Kiriakos Vlahos: And we're not we're all set up now, we are in a position to run this code what it will do, though, is, I will add a 64 bit platform to this.
+
+181
+00:27:37.980 --> 00:27:39.120
+Kiriakos Vlahos: And that will use that.
+
+182
+00:27:40.350 --> 00:27:43.080
+Kiriakos Vlahos: Since my Python is actually 64 bits.
+
+183
+00:27:44.730 --> 00:27:47.490
+Kiriakos Vlahos: And let me just try not to build the project.
+
+184
+00:27:49.110 --> 00:27:56.040
+Kiriakos Vlahos: Ah, OK, we need to write the code for the red button and that's actually and one liner.
+
+185
+00:27:57.180 --> 00:27:58.650
+Kiriakos Vlahos: Yet Python engine.
+
+186
+00:28:03.630 --> 00:28:04.260
+Kiriakos Vlahos: dod.
+
+187
+00:28:05.910 --> 00:28:07.800
+Kiriakos Vlahos: exec strings.
+
+188
+00:28:09.660 --> 00:28:12.690
+Kiriakos Vlahos: And here, provides the simulated.
+
+189
+00:28:14.190 --> 00:28:17.460
+Kiriakos Vlahos: The one good lines.
+
+190
+00:28:18.480 --> 00:28:35.250
+Kiriakos Vlahos: Property Okay, so this one liner will actually takes a distinct list, so it is strings object and take the best from that and runs that in the by from nc.
+
+191
+00:28:37.080 --> 00:28:38.160
+Kiriakos Vlahos: let's just give a go.
+
+192
+00:28:39.600 --> 00:28:41.220
+Kiriakos Vlahos: let's build this.
+
+193
+00:28:43.440 --> 00:28:45.180
+Kiriakos Vlahos: Okay, let me save that.
+
+194
+00:28:50.160 --> 00:28:54.600
+Kiriakos Vlahos: i'm in the same same.
+
+195
+00:29:01.290 --> 00:29:01.770
+Kiriakos Vlahos: test it.
+
+196
+00:29:04.350 --> 00:29:05.100
+Kiriakos Vlahos: So here we are.
+
+197
+00:29:07.380 --> 00:29:09.120
+Kiriakos Vlahos: Again, can resize this.
+
+198
+00:29:10.680 --> 00:29:12.540
+Kiriakos Vlahos: Okay, so I can say for travel beans.
+
+199
+00:29:14.790 --> 00:29:16.680
+Kiriakos Vlahos: Hello world.
+
+200
+00:29:19.080 --> 00:29:23.430
+Kiriakos Vlahos: And around that agency here Hello world to spend it.
+
+201
+00:29:24.630 --> 00:29:35.010
+Kiriakos Vlahos: or, instead, I can say in both sees and brings SIS dot version to bring the Python version.
+
+202
+00:29:37.380 --> 00:29:38.940
+Kiriakos Vlahos: Or, I can say.
+
+203
+00:29:42.120 --> 00:29:44.070
+Kiriakos Vlahos: it's a three point 11.
+
+204
+00:29:45.510 --> 00:29:51.630
+Kiriakos Vlahos: Or, I can say for in range 200.
+
+205
+00:29:54.120 --> 00:29:58.200
+Kiriakos Vlahos: You see, the orientation here print I.
+
+206
+00:29:59.880 --> 00:30:06.840
+Kiriakos Vlahos: And then get the numbers from zero to 199 brings me out.
+
+207
+00:30:08.430 --> 00:30:10.470
+Kiriakos Vlahos: Okay, so this is really the first step.
+
+208
+00:30:12.570 --> 00:30:13.080
+Kiriakos Vlahos: and
+
+209
+00:30:14.280 --> 00:30:18.750
+Kiriakos Vlahos: Let me just go back to the presentation to introduce the second DEMO.
+
+210
+00:30:23.610 --> 00:30:26.700
+Kiriakos Vlahos: In the remaining DEMO So what will be demonstrating today.
+
+211
+00:30:27.870 --> 00:30:39.420
+Kiriakos Vlahos: is how to use Delphi code in Python, so I will be introducing the Python module component.
+
+212
+00:30:40.470 --> 00:30:41.910
+Kiriakos Vlahos: And initially.
+
+213
+00:30:43.950 --> 00:30:49.200
+Kiriakos Vlahos: I will use a low level approach and later will be producing a higher level approach.
+
+214
+00:30:54.840 --> 00:30:59.970
+Kiriakos Vlahos: um and in my code that will be using the.
+
+215
+00:31:01.080 --> 00:31:07.410
+Kiriakos Vlahos: i'm a simple routine to demonstrate the code assembly routine liquid some um.
+
+216
+00:31:09.420 --> 00:31:21.510
+Kiriakos Vlahos: Which calculates prime numbers that's where the numbers prime in fact you see two versions of that code it's a very naive implementation is just used for for demonstration purposes here.
+
+217
+00:31:22.560 --> 00:31:29.400
+Kiriakos Vlahos: which you see on the left the Python version on the right, the Delphi version they look very similar in fact.
+
+218
+00:31:31.020 --> 00:31:31.950
+Kiriakos Vlahos: Interesting doing.
+
+219
+00:31:33.330 --> 00:31:46.710
+Kiriakos Vlahos: If you're using the inline variable declarations in in Delphi the Delphi code is almost the same size of the 17 number of statements as the Python code.
+
+220
+00:31:49.020 --> 00:31:51.570
+Kiriakos Vlahos: So let me just.
+
+221
+00:31:53.460 --> 00:31:56.940
+Kiriakos Vlahos: Go back to Delphi and and demonstrate that.
+
+222
+00:31:59.850 --> 00:32:13.290
+Kiriakos Vlahos: OK, I will be adding some Python code, I have already developed into the cnet component to avoid diving this every time or copying and pasting that up wrong wrong wrong place.
+
+223
+00:32:15.720 --> 00:32:16.500
+Kiriakos Vlahos: So just.
+
+224
+00:32:18.240 --> 00:32:19.560
+Kiriakos Vlahos: I want to go to them.
+
+225
+00:32:20.610 --> 00:32:22.440
+Kiriakos Vlahos: And let me just clear this up.
+
+226
+00:32:26.190 --> 00:32:35.310
+Kiriakos Vlahos: Okay, and let me around this thought here again, the only differences now, this includes this based is gold.
+
+227
+00:32:36.660 --> 00:32:38.970
+Kiriakos Vlahos: And i'll briefly talk about this code.
+
+228
+00:32:40.230 --> 00:32:47.910
+Kiriakos Vlahos: On this is the function with some calculates the damage, whether it a number is prime.
+
+229
+00:32:49.140 --> 00:33:02.160
+Kiriakos Vlahos: And then there's another function with some governance, the number of prime numbers i'm from one to the Max in it, but i'm the provided.
+
+230
+00:33:03.180 --> 00:33:10.890
+Kiriakos Vlahos: And there is a desk routing quits calls the count PRIMES for a given number in this case, one medium.
+
+231
+00:33:13.350 --> 00:33:23.130
+Kiriakos Vlahos: And that function, using the time it module the timer to calculate the the time taken to run this code.
+
+232
+00:33:24.720 --> 00:33:26.610
+Kiriakos Vlahos: So let me just run this code here.
+
+233
+00:33:29.130 --> 00:33:52.110
+Kiriakos Vlahos: And you can see that the number of frames, in the first million numbers is 78,498 and the time taken but this boat is roughly on my computer is I can play the fast machine is 1.6 1.5 1.6 seconds.
+
+234
+00:33:54.540 --> 00:34:04.350
+Kiriakos Vlahos: So what we're demonstrating is basically how we can actually replace the Python version of his prime within Delphi weevil.
+
+235
+00:34:07.800 --> 00:34:10.440
+Kiriakos Vlahos: And then use the Delphi version in the Python book.
+
+236
+00:34:12.000 --> 00:34:17.610
+Kiriakos Vlahos: Now the component, I will be using, for that is called Python module.
+
+237
+00:34:26.100 --> 00:34:26.910
+Kiriakos Vlahos: and
+
+238
+00:34:29.130 --> 00:34:46.530
+Kiriakos Vlahos: The purpose for that, first of all, the name the model name this is how Python will recognize this this type of model, and I will call this imaginative vs Delphi model that's how Python which actually recognize this this this model.
+
+239
+00:34:47.640 --> 00:34:49.680
+Kiriakos Vlahos: And I would like.
+
+240
+00:34:50.760 --> 00:34:51.510
+Kiriakos Vlahos: To.
+
+241
+00:34:53.100 --> 00:35:09.330
+Kiriakos Vlahos: create a function now in Delphi that can be used in in Python and the low level way of doing that is by using an event handler so I go here and say event deaths are the new vendor.
+
+242
+00:35:10.560 --> 00:35:23.940
+Kiriakos Vlahos: I call this Delphi is prime This is basically the new name of main Delphi function and that meant that by using an event.
+
+243
+00:35:24.960 --> 00:35:27.360
+Kiriakos Vlahos: And there will be typing this shortly.
+
+244
+00:35:31.740 --> 00:35:34.440
+Kiriakos Vlahos: On before I proceed so you need to.
+
+245
+00:35:36.780 --> 00:35:45.900
+Kiriakos Vlahos: add the the death I fought for, for his prime So this is the code that show together on a copy to the clipboard and now just pasted.
+
+246
+00:35:48.840 --> 00:35:56.940
+Kiriakos Vlahos: The code makes use of the floor function, this is the math unit in Delphi so I need to add here.
+
+247
+00:35:57.990 --> 00:36:00.570
+Kiriakos Vlahos: uses math.
+
+248
+00:36:10.320 --> 00:36:17.220
+Kiriakos Vlahos: And now I need to write this code just to save time I didn't want to just base the gold here.
+
+249
+00:36:18.390 --> 00:36:19.140
+Kiriakos Vlahos: um.
+
+250
+00:36:22.350 --> 00:36:27.030
+Kiriakos Vlahos: And I will refer to talk about is this um.
+
+251
+00:36:28.740 --> 00:36:30.900
+Kiriakos Vlahos: The code i'm.
+
+252
+00:36:32.160 --> 00:36:36.960
+Kiriakos Vlahos: Presently, this is the lower level approach, and you can see why why this is the case.
+
+253
+00:36:38.070 --> 00:36:43.650
+Kiriakos Vlahos: Basically, what we need to do is translate the Python.
+
+254
+00:36:44.700 --> 00:36:48.300
+Kiriakos Vlahos: variables into the corresponding delphia data types.
+
+255
+00:36:50.250 --> 00:36:56.760
+Kiriakos Vlahos: Do the calculation in Delphi and then return the results in Python object.
+
+256
+00:36:59.250 --> 00:37:02.310
+Kiriakos Vlahos: And the way this is Dan is by using.
+
+257
+00:37:03.510 --> 00:37:17.910
+Kiriakos Vlahos: The Python engine function by a bus drupal that you see here, which basically converts the Bible and arguments in the Delphi objects, in this case, just an image of number.
+
+258
+00:37:20.790 --> 00:37:23.640
+Kiriakos Vlahos: Then his primary school this function here.
+
+259
+00:37:25.710 --> 00:37:34.680
+Kiriakos Vlahos: And, basically, the result of this function, it should be both an object and you see here the result is the bite through or by false.
+
+260
+00:37:36.390 --> 00:37:50.730
+Kiriakos Vlahos: And one of the thing you need to remember is low level approach is the fact that button objects are reference counted, so you need to, for example here, provides a new reference and increment the reference count with the reason.
+
+261
+00:37:53.250 --> 00:37:53.880
+Kiriakos Vlahos: i'm.
+
+262
+00:37:55.440 --> 00:38:07.320
+Kiriakos Vlahos: with you, so this is really the standard low level approach, I will be later demonstrating a higher level approach create some prevents allows you not to bother with all this lower level of this.
+
+263
+00:38:08.970 --> 00:38:14.970
+Kiriakos Vlahos: And, but this is it this salt, we need to do here and we can now run the application again.
+
+264
+00:38:19.080 --> 00:38:23.250
+Kiriakos Vlahos: We need to modify the Python code to use.
+
+265
+00:38:29.100 --> 00:38:46.200
+Kiriakos Vlahos: i'm to use our functional module so instead of important month we can say from Delphi module remember this, is the name of our Delphi modern important our function, which is Delphi.
+
+266
+00:38:47.310 --> 00:38:49.020
+Kiriakos Vlahos: Is prime.
+
+267
+00:38:50.820 --> 00:39:01.050
+Kiriakos Vlahos: We don't need the subprime defining bacon because we have our Delphi implementation and basically here, instead of is Brian we are using they'll face Brian.
+
+268
+00:39:02.430 --> 00:39:04.800
+Kiriakos Vlahos: I think that's all it takes, so let me just run that.
+
+269
+00:39:09.210 --> 00:39:12.870
+Kiriakos Vlahos: And again, you see the same number of crimes but.
+
+270
+00:39:13.950 --> 00:39:29.520
+Kiriakos Vlahos: Here we looked at the last time before it was 1.5 1.6 seconds, now the gold runs 10 times faster just by using a Delphi equivalent of this is Brian Bible method.
+
+271
+00:39:42.300 --> 00:39:43.980
+Kiriakos Vlahos: Okay i'm.
+
+272
+00:39:46.590 --> 00:40:05.160
+Kiriakos Vlahos: At 10 times speed up sounds good, but hold on remember the other thing we said earlier on, is that it's hard to utilize all the Python books in Python but in Delphi we can utilize all the Python goals quite quite easily.
+
+273
+00:40:06.180 --> 00:40:18.990
+Kiriakos Vlahos: um so the next thing is, I will be providing a version of the town prime's quits calculate these as in battle utilizing all the Boards protection available in my machine.
+
+274
+00:40:21.060 --> 00:40:22.890
+Kiriakos Vlahos: I believe that our 16th government.
+
+275
+00:40:24.480 --> 00:40:25.350
+Kiriakos Vlahos: So.
+
+276
+00:40:31.770 --> 00:40:36.600
+Kiriakos Vlahos: So, first of all I need to add a couple of models here mom one one basically reading.
+
+277
+00:40:39.720 --> 00:40:42.270
+Kiriakos Vlahos: digitalize the bottle stuff.
+
+278
+00:40:43.290 --> 00:40:45.780
+Kiriakos Vlahos: And this is my version.
+
+279
+00:40:46.830 --> 00:40:48.300
+Kiriakos Vlahos: Of the.
+
+280
+00:40:49.350 --> 00:40:50.550
+Kiriakos Vlahos: Town PRIMES.
+
+281
+00:40:55.620 --> 00:41:07.650
+Kiriakos Vlahos: One be bothered to explain that in great detail, but basically uses the tip bottle for from the threading unit of of of Delphi.
+
+282
+00:41:08.790 --> 00:41:09.810
+Kiriakos Vlahos: to calculate.
+
+283
+00:41:11.730 --> 00:41:14.580
+Kiriakos Vlahos: All the do the calculations in Palo.
+
+284
+00:41:17.010 --> 00:41:22.440
+Kiriakos Vlahos: It just started with gold, later on, if you want, but then I need to export this town price.
+
+285
+00:41:24.390 --> 00:41:31.290
+Kiriakos Vlahos: In the Python module so again, I need to go back here and say Python module events.
+
+286
+00:41:39.810 --> 00:41:41.040
+Kiriakos Vlahos: So events.
+
+287
+00:41:43.260 --> 00:41:45.030
+Kiriakos Vlahos: And then add a new.
+
+288
+00:41:48.330 --> 00:41:53.730
+Kiriakos Vlahos: A new event and call this event so call this event.
+
+289
+00:41:56.070 --> 00:41:57.030
+Kiriakos Vlahos: delphine.
+
+290
+00:41:59.070 --> 00:42:00.090
+Kiriakos Vlahos: gown PRIMES.
+
+291
+00:42:04.230 --> 00:42:10.320
+Kiriakos Vlahos: And finally, I need to provide an implementation for that using the on the ticket event handler.
+
+292
+00:42:14.250 --> 00:42:16.560
+Kiriakos Vlahos: And like before I will be.
+
+293
+00:42:18.630 --> 00:42:20.430
+Kiriakos Vlahos: pasting the goal to save time.
+
+294
+00:42:22.680 --> 00:42:28.170
+Kiriakos Vlahos: It looks very similar to the previous code, so one being going through the process of explaining that.
+
+295
+00:42:30.060 --> 00:42:35.160
+Kiriakos Vlahos: And now let's just around the new goal, just to see how it works.
+
+296
+00:42:38.220 --> 00:42:48.120
+Kiriakos Vlahos: So, like before here, I will say from Delphi model import Delphi count PRIMES.
+
+297
+00:42:52.170 --> 00:42:58.650
+Kiriakos Vlahos: And I don't need this prime and they don't need to be commonplace, because I have my.
+
+298
+00:43:04.260 --> 00:43:05.820
+Kiriakos Vlahos: My Delphi version of that.
+
+299
+00:43:07.050 --> 00:43:17.550
+Kiriakos Vlahos: So basically know this, all the goodies have here, but I need to replace comprise with Delphi code brains um, and this is all.
+
+300
+00:43:18.630 --> 00:43:20.580
+Kiriakos Vlahos: And let me just around the corner now.
+
+301
+00:43:24.720 --> 00:43:30.390
+Kiriakos Vlahos: jd the same number of PRIMES to speculate but keep a look at the actual execution time.
+
+302
+00:43:32.070 --> 00:43:34.230
+Kiriakos Vlahos: Remember the.
+
+303
+00:43:36.390 --> 00:43:39.960
+Kiriakos Vlahos: The Python code runs in 1.5 seconds.
+
+304
+00:43:41.250 --> 00:43:47.580
+Kiriakos Vlahos: In our first iteration where we just replace this prime we get point one five.
+
+305
+00:43:48.660 --> 00:43:53.100
+Kiriakos Vlahos: And now the execution time is point 015.
+
+306
+00:43:54.180 --> 00:43:59.430
+Kiriakos Vlahos: Which means that this runs 100 times faster than the bike and boat.
+
+307
+00:44:12.180 --> 00:44:27.870
+Kiriakos Vlahos: Are you will now be introducing a higher level approach of exposing Duffy objects and functions to Python which involves a component called Dubai does happen.
+
+308
+00:44:30.270 --> 00:44:50.670
+Kiriakos Vlahos: Remember in the low level approach for every function expose you need to convert the bison arguments into death variables do the calculations in Delphi and then convert the Delphi result into a Python object and have to think about reference counting.
+
+309
+00:44:53.760 --> 00:45:02.310
+Kiriakos Vlahos: This approach that will be demonstrating now gets rid of all that you don't need to do that can directly expose your Delphi functions.
+
+310
+00:45:07.230 --> 00:45:15.180
+Kiriakos Vlahos: um I will be defining a record here, just as a holder is a is a static function class function.
+
+311
+00:45:16.350 --> 00:45:20.910
+Kiriakos Vlahos: As a holder of of Delphi functions, I want to expose in this case, just one.
+
+312
+00:45:22.230 --> 00:45:34.710
+Kiriakos Vlahos: um and instead of writing events, I will just use the by deaf ear rapper component to wrap this record here the different functions.
+
+313
+00:45:42.990 --> 00:45:55.380
+Kiriakos Vlahos: Okay, so basically a copy of this declaration of the records into the interface part of the model another this variable declaration here an instance of that record.
+
+314
+00:45:57.270 --> 00:46:02.010
+Kiriakos Vlahos: And I can get rid of all these events, because I no longer need them.
+
+315
+00:46:10.050 --> 00:46:11.820
+Kiriakos Vlahos: All this code is not anymore.
+
+316
+00:46:15.450 --> 00:46:16.230
+Kiriakos Vlahos: and
+
+317
+00:46:21.090 --> 00:46:26.910
+Kiriakos Vlahos: What they need here, first of all, is is to provide the implementation of this function.
+
+318
+00:46:29.220 --> 00:46:34.860
+Kiriakos Vlahos: The code, for that is exactly the same as the God, we have here, so I can just.
+
+319
+00:46:35.910 --> 00:46:37.350
+Kiriakos Vlahos: copy and paste the code.
+
+320
+00:46:40.050 --> 00:46:44.760
+Kiriakos Vlahos: For the gun PRIMES and get rid of the single function words I no longer need.
+
+321
+00:46:48.030 --> 00:46:55.860
+Kiriakos Vlahos: And I need to provide the event held it for gender for form form create that I showed you earlier on.
+
+322
+00:47:02.940 --> 00:47:09.720
+Kiriakos Vlahos: Okay, so basically a go back here and in the form events on create.
+
+323
+00:47:12.900 --> 00:47:16.500
+Kiriakos Vlahos: I agree, the skeleton and then we'll just face the gold to save time.
+
+324
+00:47:19.200 --> 00:47:27.360
+Kiriakos Vlahos: And What this boils down God, does it uses the bay death you rapper component, we are to the form.
+
+325
+00:47:28.830 --> 00:47:31.290
+Kiriakos Vlahos: to wrap the.
+
+326
+00:47:32.430 --> 00:47:36.600
+Kiriakos Vlahos: I utilize actually component here, so let me just start the rapper here.
+
+327
+00:47:39.510 --> 00:47:45.330
+Kiriakos Vlahos: And let me just link the rapper to the Bible each automatically even so.
+
+328
+00:47:46.350 --> 00:47:48.690
+Kiriakos Vlahos: Lindsay model to the Python model we have.
+
+329
+00:47:50.100 --> 00:47:52.410
+Kiriakos Vlahos: um and.
+
+330
+00:47:53.520 --> 00:48:00.720
+Kiriakos Vlahos: This uses the rti model of Delphi so here, I need to add the rti model.
+
+331
+00:48:03.030 --> 00:48:04.200
+Kiriakos Vlahos: To the uses close.
+
+332
+00:48:08.190 --> 00:48:12.780
+Kiriakos Vlahos: And this is very vital for more than one because that's what it's called in Python engine one.
+
+333
+00:48:14.190 --> 00:48:28.350
+Kiriakos Vlahos: Okay, so, basically, what we are doing here is basically we using the rap record method of the delphia rapper to create a bio object that corresponds to the record.
+
+334
+00:48:30.930 --> 00:48:38.040
+Kiriakos Vlahos: And then we're exposing the subject to the module using a name called Delphi functions.
+
+335
+00:48:40.050 --> 00:48:47.100
+Kiriakos Vlahos: And finally, we need to decrease the reference to that object, so that it automatically gets destroyed.
+
+336
+00:48:48.750 --> 00:48:50.880
+Kiriakos Vlahos: When our Bible go that's.
+
+337
+00:48:53.010 --> 00:49:00.810
+Kiriakos Vlahos: Okay, let me just throw this now we are pretty much ready not is basically here that we don't do any of the conversions.
+
+338
+00:49:01.950 --> 00:49:17.670
+Kiriakos Vlahos: From Python objects to Delphi for every function, we expose we just expose for example of his record here which could contain many Delphi functions and we do just once, and then the actual implementation is a simple.
+
+339
+00:49:18.900 --> 00:49:20.280
+Kiriakos Vlahos: Standard Pascal procedure.
+
+340
+00:49:21.960 --> 00:49:23.460
+Kiriakos Vlahos: So let me just run that.
+
+341
+00:49:24.810 --> 00:49:25.530
+Kiriakos Vlahos: and
+
+342
+00:49:33.480 --> 00:49:43.410
+Kiriakos Vlahos: replaces that from Delphi modern import else functions.
+
+343
+00:49:45.480 --> 00:50:00.270
+Kiriakos Vlahos: I don't need to be any of this Python code here, and this time i'm going to be using the Delphi functions that count price.
+
+344
+00:50:02.190 --> 00:50:06.930
+Kiriakos Vlahos: And again, let me just run that I think we'll all set.
+
+345
+00:50:09.660 --> 00:50:22.110
+Kiriakos Vlahos: And again, we go the same number of PRIMES and the execution dimes theories about 100 times faster than the original Bible good.
+
+346
+00:50:25.080 --> 00:50:28.260
+Kiriakos Vlahos: Okay, this soul, I wanted to do present today.
+
+347
+00:50:32.070 --> 00:50:49.530
+Kiriakos Vlahos: Let me just go back to the presentation here, this is the High Level abroad that they just demonstrated, if you want to find more about wrapping Python classes and both an interface, and so on, you can have a look at this DEMO DEMO 31.
+
+348
+00:50:50.970 --> 00:51:00.600
+Kiriakos Vlahos: This also shows you how to rap visual components like force and manipulate the forms using Python code.
+
+349
+00:51:03.840 --> 00:51:18.600
+Kiriakos Vlahos: And this is all for today, thank you very much for attending the session um if you want last questions you can ask them in the discord server that you have been provided with.
+
+350
+00:51:19.830 --> 00:51:22.650
+Kiriakos Vlahos: Thank you very much, thanks for attending.
+
