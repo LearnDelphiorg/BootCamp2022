@@ -1,0 +1,5 @@
+﻿FRIDGE REPAIR BILL
+ 
+Customer's Name: Knol
+Hours of labor cost:  R 2 700.00
+Parts & Repairs cost:  R 672.80

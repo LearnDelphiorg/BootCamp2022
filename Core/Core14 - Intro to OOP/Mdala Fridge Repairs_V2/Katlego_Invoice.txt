@@ -1,0 +1,8 @@
+﻿FRIDGE REPAIR BILL
+ 
+Customer's Name     : Katlego
+Hours of labor cost  : 1 181.25
+Parts & Repairs cost : 1 478.63
+                      ========
+TOTAL DUE:            2 393.89
+                      ========

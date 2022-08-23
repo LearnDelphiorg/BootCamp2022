@@ -1,0 +1,11 @@
+No,Province,Area [SqKm x100],Population [x1000]
+1,Gauteng,170.1,10450
+2,KwaZulu-Natal,921.0,10110
+3,Eastern Cape,1695.8,6580
+4,Limpopo,1239.1,5270
+5,Western Cape,1293.7,5260
+6,Mpumalanga,794.9,3590
+7,North West,1163.2,3430
+8,Free State,1294.8,2880
+9,Nothern Cape,3618.3,1130
+,TOTAL,,

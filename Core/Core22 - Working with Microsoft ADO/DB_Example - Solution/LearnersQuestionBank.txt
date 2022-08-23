@@ -1,0 +1,46 @@
+Q1|"IF YOU WANT TO CHANGE LANES, YOU MUST"|Switch on your indicator and change lanes.|"Give the necessary signal and after looking for other traffic, change lanes."|Apply the brakes lightly and then change lanes.| None of the above |3|None
+Q2|THE FOLLOWING Traffic sign indicates that|You should lookout for Jack to say Hi.|Be aware and on the alert for Hi-jacking.|This spot is hot|None of the above|2|Hijack.bmp
+Q3|YOU ARE NOT ALLOWED TO STOP|"Opposite a vehicle, where the roadway is 10m wide."|Where you are also not allowed to park.| 5m from a bridge.|At a filling station|3|None
+Q4|THE FOLLOWING Traffic sign indicates that|You may not park here between 06:00 to 18:00 in the week|Silence between 06:00 to 18:00|Weekend drivers only|Stop don’t work wait for the weekend|1|Stilhoubeperking.bmp
+Q5|THE FOLLOWING Traffic sign indicates that|You need 10 tokens at the toll gate|When feeling road rage count to ten|Something something 10 t- something|Vehicles exceeding mass only|4|01.bmp
+Q6|THE FOLLOWING Traffic sign indicates that|Round about ahead|Yield at mini circle|Ringer ringer rosies|Head spinning|2|02.bmp
+Q7|THE FOLLOWING Traffic sign indicates that|You must walk and not ride your cycle|Cycles to the left people to the right|Leave bike and run away|Pedal cycles & pedestrians only sign|4|03.bmp
+Q8|THE FOLLOWING Traffic sign indicates that|Motor cycles only|Bike lane|Sexy bikers ahead|Think bike|1|04.bmp
+Q9|THE FOLLOWING Traffic sign indicates that|Animal-drawn vehicles|Free source for bio gas.|One horsepower vehicles|Green energy cars|1|05.bmp
+Q10|THE FOLLOWING Traffic sign indicates that|People per axel limit|Two tyres needed|Axel mass load limit |Maximum vehicles weight per axel|3|06.bmp
+Q11|THE FOLLOWING Traffic sign indicates that|Not a good place to hitch-hike|Hitch-hiking prohibited|Possible highjack zone|No freeloaders allowed|2|07.bmp
+Q12|THE FOLLOWING Traffic sign indicates that|You can only sell at the traffic light in this area.|Hawkers prohibited|No selling allowed when it rains.|No cannon balls for sale|2|08.bmp
+Q13|THE FOLLOWING Traffic sign indicates that|Night condition sign|No clouds at night |Full moon and three stars|Twinkle twinkle little star|1|09.bmp
+Q14|THE FOLLOWING Traffic sign indicates that|Hawkers may sell at these times|Business hours|Reserved for shop owners|Two periods or day  time limit sign|4|10.bmp
+Q15|THE FOLLOWING Traffic sign indicates that|Holiday resort|Camping area|Woonerf|Children playing in street|3|11.bmp
+Q16|THE FOLLOWING Traffic sign indicates that|Motor cycle engine size limit|Bus passenger limit|some sort of volume measurement|126 cc will not be allowed|1|12.bmp
+Q17|THE FOLLOWING Traffic sign indicates that|Minimum Speed limit|Maximum speed limit|Maximum number of vehicles allowed|Average load per minibus taxi|3|13.bmp
+Q18|THE FOLLOWING Traffic sign indicates that|Person at moving sand or something|King Arthur getting Excalibur|Man struggling to open umbrella|Construction workers|4|14.bmp
+Q19|THE FOLLOWING Traffic sign indicates that|Hospital ahead|Cross road sign|Church ahead|x marks the spot|2|15.bmp
+Q20|THE FOLLOWING Traffic sign indicates that|Y-junction sign|Left or right - you choose|Better to not go straight|One road becomes two|1|16.bmp
+Q21|THE FOLLOWING Traffic sign indicates that|Up or down - you choose|Indicates car lift|Two-way traffic|High-Way and By-Way|3|17.bmp
+Q22|THE FOLLOWING Traffic sign indicates that|Pothole - go around left side|Winding road sign|Carsickness sufferers nightmare ahead|Drunk drivers must just keep straight ahead|2|18.bmp
+Q23|THE FOLLOWING Traffic sign indicates that|Places where you should not go straight|Really sharp corners|Concealed cameras|Concealed driveway sign|4|19.bmp
+Q24|THE FOLLOWING Traffic sign indicates that|Traffic control - Yield sign ahead|Little triangle sign|I count four triangles|Makes a ding sound when strikes|1|20.bmp
+Q25|THE FOLLOWING Traffic sign indicates that|Children sign|No adults allowed|Children running across road|School ahead|1|21.bmp
+Q26|THE FOLLOWING Traffic sign indicates that|Cow farms with no fences|Butchery ahead|Cows ahead|Farm animals sign|4|22.bmp
+Q27|THE FOLLOWING Traffic sign indicates that|Many potholes ahead|Budget for road ends here|Gravel road begins|Kill cigarettes|3|23.bmp
+Q28|THE FOLLOWING Traffic sign indicates that|Slow moving heavy vehicles ahead|breaks testing zone|Slow down on downhill|Cars get more damage than trucks|1|24.bmp
+Q29|THE FOLLOWING Traffic sign indicates that|Ladder section|Motor gate sign|Ridges in road makes noise|Pedestrian crossing|2|25.bmp
+Q30|THE FOLLOWING Traffic sign indicates that|Speed humps|Sprinkle POP zone|Uneven roadway|Car sick people should rather walk|3|26.bmp
+Q31|THE FOLLOWING Traffic sign indicates that|Test skull against car roof zone|Uneven roadway|Reverse potholes|Speed humps|4|27.bmp
+Q32|THE FOLLOWING Traffic sign indicates that|Slippery road|Snow and ice road|Tire burnout zone|None of the above|1|28.bmp
+Q33|THE FOLLOWING Traffic sign indicates that|Test breaks now|There can be rocks falling on to the road|Careful driving ahead|Falling rocks|4|29.bmp
+Q34|THE FOLLOWING Traffic sign indicates that|Place to cool down tires|Drift sign|Potholes can contain water|No  fishing in this area|2|30.bmp
+Q35|THE FOLLOWING Traffic sign indicates that|Low flying aircraft|Keep eyes on road|Plane landing zone|Reserved for emergency landings|1|31.bmp
+Q36|THE FOLLOWING Traffic sign indicates that|Strong winds|Female parking area|Accident ahead|Stunt drivers ahead|3|32.bmp
+Q37|THE FOLLOWING Traffic sign indicates that|Gravel road|No motorcycles |Loose stones|Careful of windscreen cracking|3|33.bmp
+Q38|When you come to a fork in the road….|Do not go straight|Keep right|Keep left|Take it|4|None
+Q39|It is compulsory to carry your ......  with you at all times in South Africa |Driving license|Passport|ID book|None of the above|1|None
+Q40|Traffic enforcement officers can hide in:|Unmarked or disguised vans|Bushes|Dustbins|All of the above|4|None
+Q41|In S.A. it’s illegal to park |and leave food in the car|park facing in the wrong direction|and leave your carkeys in the door|and not to tip the dude offering to watch your car|2|None
+Q42|"All distances, speed limits (and speedometers) are in:"|Decimetres|Miles|Kilometres|Feet|3|None
+Q43|Speed limits are:|Maximum speeds|Recommended speeds|Average speeds|Minimum speeds|1|None
+Q44|No person shall operate a vehicle on a public road towing another vehicle if the length of the tow-rope exceeds:|2 meters|2.5 meters|3 meters|3.5 meters|4|None
+Q45|"Towing is illegal at a speed in excess of ??  per hour, unless the towing vehicle is connected to the towed vehicle by means of a drawbar or a tow-bar"|20 kilometres|30 kilometres|50 kilometres|60 kilometres|2|None
+Q46|No person shall on a public road:|"cause any wheel of any vehicle to drag or spin upon the surface of the roadway, except in the case of an emergency"|make use of chocks or shoes between any wheel of any vehicle moving along the roadway and the surface of such roadway|use any vehicle or thing or move any vehicle or thing on the roadway in a manner causing or likely to cause damage thereto|All of the above|4|None

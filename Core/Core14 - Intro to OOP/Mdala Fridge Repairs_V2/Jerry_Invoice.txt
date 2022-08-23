@@ -1,0 +1,8 @@
+﻿FRIDGE REPAIR BILL
+ 
+Customer's Name     : Jerry
+Hours of labor cost  : 562.50
+Parts & Repairs cost : 214.60
+                      ========
+TOTAL DUE:            699.39
+                      ========

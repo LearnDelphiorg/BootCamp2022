@@ -1,0 +1,85 @@
+                   EXPIRED LEARNERS LICENCE REPORT
+                   ===============================
+
+    Client          Learner Details    DateExpired
+    ------         ----------------     ----------
+
+  BL411002                  Ally, D     2018/02/24
+  BL761349                  Tuck, A     2018/02/27
+  BL151197                Mapela, M     2018/02/28
+  BL441100              Nicholls, T     2018/03/03
+  BL891109              Matiwane, S     2018/03/03
+  BL321077                Mayola, N     2018/03/06
+  BL861014          La Bercensie, F     2018/03/06
+  BL881451               Le Roux, S     2018/03/06
+  BL801258                  Zuma, Z     2018/03/08
+  BL201347                De Vos, C     2018/03/11
+  BL101111             Potgieter, S     2018/03/12
+  BL481359                  Doko, D     2018/03/18
+  BL721158           Govindasamy, W     2018/03/26
+  BL551189             Marizanne, E     2018/03/27
+  BL411230                  Quza, S     2018/04/03
+  BL251428               Strydom, L     2018/04/05
+  BL671180                Majola, M     2018/04/05
+  BL241063                Harris, T     2018/04/08
+  BL641179               Kwatsha, K     2018/04/12
+  BL381292                 Salie, C     2018/04/15
+  BL811079               Behrens, N     2018/04/15
+  BL381235             Mzozoyana, L     2018/04/20
+  BL831342                Cuming, C     2018/04/21
+  BL271001                 Adams, T     2018/04/26
+  BL131288              Rousseau, J     2018/04/28
+  BL221052                  Hopa, L     2018/04/30
+  BL341205                 Mgoqo, N     2018/05/05
+  BL181151               van Zyl, R     2018/05/06
+  BL641064             Hendricks, L     2018/05/08
+  BL761381               Fihlani, J     2018/05/09
+  BL891060                Toyiya, M     2018/05/09
+  BL681218               Ncokazi, N     2018/05/10
+  BL111419                  Jaga, L     2018/05/11
+  BL571267               Pennels, A     2018/05/11
+  BL151374                  Webb, N     2018/05/12
+  BL131237             Ramaokane, S     2018/05/14
+  BL491456               Ngaleka, R     2018/05/17
+  BL541483               Erasmus, S     2018/05/17
+  BL161047                Mavuso, K     2018/05/18
+  BL141495               Mancoba, T     2018/05/25
+  BL661086               Rwexana, S     2018/05/26
+  BL721429                 Gowar, A     2018/05/26
+  BL151017              Seafield, K     2018/05/28
+  BL671356          Van Der Watt, S     2018/05/28
+  BL871039             Lottering, T     2018/05/29
+  BL191437               Pienaar, L     2018/06/01
+  BL251283               Renshaw, S     2018/06/01
+  BL111442               Kilgour, R     2018/06/03
+  BL301434                Jaftha, E     2018/06/03
+  BL261318             Spanjaard, D     2018/06/08
+  BL271076               Ngwendu, M     2018/06/09
+  BL391075                Pepeta, M     2018/06/12
+  BL141345               Daniels, C     2018/06/17
+  BL301219                 Moore, D     2018/06/20
+  BL781365               Elliott, I     2018/06/24
+  BL821050               Francis, E     2018/06/24
+  BL381021             Agherdien, R     2018/06/26
+  BL421409                Hattle, L     2018/06/28
+  BL391448                Gibson, J     2018/06/30
+  BL421193              Matshoba, M     2018/07/01
+  BL511031                Fember, R     2018/07/01
+  BL521485                Mabope, D     2018/07/04
+  BL181245              Njokweni, D     2018/07/07
+  BL741236                Naidoo, J     2018/07/09
+  BL531037                  Elie, C     2018/07/15
+  BL721034               Domingo, V     2018/07/15
+  BL151484               Mahleza, T     2018/07/18
+  BL161200                Mapipa, M     2018/07/18
+  BL621475              Madikane, S     2018/07/20
+  BL331181                  Losi, L     2018/07/22
+  BL721206                 Mguba, N     2018/07/22
+  BL741433                Joseph, M     2018/07/24
+  BL771488               Mansell, B     2018/07/24
+  BL791368                Venter, E     2018/07/24
+  BL891131               Mahomed, D     2018/07/25
+  BL811009               Attwell, S     2018/07/26
+  BL671438                 Marsh, W     2018/08/05
+
+                 Total Expired Licences:      77

@@ -1,0 +1,8 @@
+﻿FRIDGE REPAIR BILL
+ 
+Customer's Name: Suurmiele
+Hours of labor cost:   3 375.00
+Parts & Repairs cost:   1 832.80
+                         ========================
+TOTAL DUE:              5 207.80
+                         ========================

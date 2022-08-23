@@ -1,0 +1,4 @@
+Application name:	MusicDelphi
+API key:		2a247680b483de11cc791ea76bf7ac4e
+Shared secret:		31399b3541af700c4d50c87e11daaf05
+Registered to:		aubreypk

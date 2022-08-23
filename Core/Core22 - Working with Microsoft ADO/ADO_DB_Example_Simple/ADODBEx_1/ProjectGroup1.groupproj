@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0F789ED3-6A32-4D7E-9B3D-3EB1BAB1AA8F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DBExampleProject_1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\DB_Example - Solution\QBDriveSchoolExample_p.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DBExampleProject_1">
+        <MSBuild Projects="DBExampleProject_1.dproj"/>
+    </Target>
+    <Target Name="DBExampleProject_1:Clean">
+        <MSBuild Projects="DBExampleProject_1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DBExampleProject_1:Make">
+        <MSBuild Projects="DBExampleProject_1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="QBDriveSchoolExample_p">
+        <MSBuild Projects="..\..\DB_Example - Solution\QBDriveSchoolExample_p.dproj"/>
+    </Target>
+    <Target Name="QBDriveSchoolExample_p:Clean">
+        <MSBuild Projects="..\..\DB_Example - Solution\QBDriveSchoolExample_p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="QBDriveSchoolExample_p:Make">
+        <MSBuild Projects="..\..\DB_Example - Solution\QBDriveSchoolExample_p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DBExampleProject_1;QBDriveSchoolExample_p"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DBExampleProject_1:Clean;QBDriveSchoolExample_p:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DBExampleProject_1:Make;QBDriveSchoolExample_p:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

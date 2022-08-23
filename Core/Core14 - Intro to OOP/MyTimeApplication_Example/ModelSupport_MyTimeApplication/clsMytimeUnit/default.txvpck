@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="b8jcbym2s0ec9bdit_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:MyTimeApplication:clsMytimeUnit.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:MyTimeApplication:clsMytimeUnit.TMyTime">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="0,0,128,298" />
+      <reference referencedUin="delphi:e_field:src:MyTimeApplication:clsMytimeUnit.TMyTime.fHours" />
+      <reference referencedUin="delphi:e_field:src:MyTimeApplication:clsMytimeUnit.TMyTime.fMinutes" />
+      <reference referencedUin="delphi:e_field:src:MyTimeApplication:clsMytimeUnit.TMyTime.fTimeSeparator" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.create()" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.create(System.Integer,System.Integer,System.Char)" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.setHours(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.setMinutes(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.getHours()" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.getMinutes()" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.getSeparator()" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.setSeparator(System.Char)" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.incHours()" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.incMinutes()" />
+      <reference referencedUin="delphi:e_method:src:MyTimeApplication:clsMytimeUnit.TMyTime.getTimeStr()" />
+      <reference referencedUin="delphi:e_property:src:MyTimeApplication:clsMytimeUnit.TMyTime.separator" />
+    </reference>
+  </view>
+</nodeSet>

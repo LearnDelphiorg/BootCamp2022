@@ -1,0 +1,8 @@
+﻿FRIDGE REPAIR BILL
+ 
+Customer's Name     : Koos
+Hours of labor cost  : 2 700.00
+Parts & Repairs cost : 1 090.40
+                      ========
+TOTAL DUE:            3 790.40
+                      ========
