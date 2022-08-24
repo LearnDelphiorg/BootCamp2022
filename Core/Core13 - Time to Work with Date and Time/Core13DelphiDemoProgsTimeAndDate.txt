@@ -1,0 +1,3 @@
+TTimer for both FMX and VCL
+
+https://stackoverflow.com/questions/32582174/how-can-i-create-an-internal-timer-that-will-work-with-vcl-and-fmx

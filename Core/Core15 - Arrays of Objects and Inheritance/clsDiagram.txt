@@ -1,0 +1,15 @@
+Character
+--------------------------------------------------
+- fName (String)
+- fType (String)
+- fHealth (integer)
+--------------------------------------------------
++ createCharacter (String, String, int)
++ setName (String) 
++ setType (String) 
++ setHealth (integer)
++ getName : String
++ getType : String
++ getHealth : integer
++ toString : String 
+--------------------------------------------------
