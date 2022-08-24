@@ -1,4 +1,4 @@
-# BootCamp2022
+# Coding Boot Camp 2022
 
 Slides and code from the [Coding Boot Camp 2022](https://learndelphi.org/boot-camp-2022/) hosted by LearnDelphi.org
 
