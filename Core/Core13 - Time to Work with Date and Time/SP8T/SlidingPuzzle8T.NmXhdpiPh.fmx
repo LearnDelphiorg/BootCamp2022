@@ -1,0 +1,14 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited Text1: TText
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Text3: TText
+    Text = 
+      'Click or tap a tile that is allowed to change position with blan' +
+      'k tile until numbers on tiles ordered by row sequentially from t' +
+      'he top'
+  end
+end

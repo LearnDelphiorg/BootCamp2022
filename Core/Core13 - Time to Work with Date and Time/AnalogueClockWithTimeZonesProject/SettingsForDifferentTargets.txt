@@ -1,0 +1,6 @@
+Implementation
+{$R *.fmx}
+{$R *.NmXhdpiPh.fmx ANDROID}
+{$R *.LgXhdpiPh.fmx ANDROID}
+{$R *.SmXhdpiPh.fmx ANDROID}
+{$R *.Macintosh.fmx MACOS}

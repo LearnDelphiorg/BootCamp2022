@@ -1,0 +1,15 @@
+Procedure TForm1.ListView1ItemClick(const Sender: TObject;
+  const AItem: TListViewItem);
+  Begin
+    If SelectedItem <> Nil
+      Then SelectedItem.Checked := False;
+    If AItem <> Nil
+      Then
+        Begin
+          Text2.Text := AItem.Text;
+          CurrentTimeZone := Text2.Text;
+          SelectedItem := AItem;
+        End
+      Else Text2.Text := CurrentTimeZone;
+  LTimeZone := TBundledTimeZone.GetTimeZone(Text2.Text);
+End;

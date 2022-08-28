@@ -1,0 +1,13 @@
+    ListView1.BeginUpdate;
+    Try
+      For LTZID in TBundledTimeZone.KnownTimeZones(True)
+        Do
+          Begin
+            LItem := ListView1.Items.Add;
+            LItem.Text := LTZID;
+          End;
+     Finally
+       ListView1.EndUpdate;
+     End;
+     ListView1.SetFocus;
+     LTimeZone := TBundledTimeZone.GetTimeZone('etc/GMT');

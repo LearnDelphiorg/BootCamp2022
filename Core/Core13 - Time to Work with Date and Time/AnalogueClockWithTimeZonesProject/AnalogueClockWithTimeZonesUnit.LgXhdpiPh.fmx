@@ -1,0 +1,36 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited Circle1: TCircle
+    inherited Layout1: TLayout
+      inherited Text1: TText
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  inherited Layout2: TLayout
+    Size.Width = 450.000000000000000000
+    inherited SpeedButton1: TSpeedButton
+      Position.Y = 1.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+    inherited SpeedButton2: TSpeedButton
+      Align = MostLeft
+      Position.Y = 1.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+    inherited Text2: TText
+      Align = MostLeft
+      Position.X = 160.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 50.000000000000000000
+    end
+    inherited Text3: TText
+      Position.X = 362.000000000000000000
+    end
+  end
+  inherited ListView1: TListView
+    Size.Height = 645.000000000000000000
+  end
+end

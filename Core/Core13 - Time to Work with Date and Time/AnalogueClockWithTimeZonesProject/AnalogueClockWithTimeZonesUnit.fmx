@@ -1,0 +1,147 @@
+object Form1: TForm1
+  StyleName = 'ClockFaceNo'
+  Left = 0
+  Top = 0
+  Caption = 'Analogue Clock'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Circle1: TCircle
+    Align = Center
+    Fill.Color = claWhite
+    Size.Width = 300.000000000000000000
+    Size.Height = 300.000000000000000000
+    Size.PlatformDefault = False
+    object Layout1: TLayout
+      StyleName = 'ClockFaceNoStyle'
+      Position.X = 131.000000000000000000
+      Size.Width = 37.500000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Text1: TText
+        Size.Width = 37.500000000000000000
+        Size.Height = 37.500000000000000000
+        Size.PlatformDefault = False
+        Text = '12'
+        TextSettings.Font.Size = 24.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    object rrHour: TRoundRect
+      Fill.Color = claBlack
+      Position.X = 143.000000000000000000
+      Position.Y = 80.000000000000000000
+      RotationCenter.Y = 1.000000000000000000
+      Size.Width = 14.000000000000000000
+      Size.Height = 70.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object rrMinute: TRoundRect
+      Fill.Color = claRed
+      Position.X = 145.000000000000000000
+      Position.Y = 50.000000000000000000
+      RotationCenter.Y = 1.000000000000000000
+      Size.Width = 10.000000000000000000
+      Size.Height = 100.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object rrSecond: TRoundRect
+      Fill.Color = claRed
+      Position.X = 147.000000000000000000
+      Position.Y = 35.000000000000000000
+      RotationCenter.Y = 1.000000000000000000
+      Size.Width = 6.000000000000000000
+      Size.Height = 115.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Rectangle1: TRectangle
+      Fill.Color = claWhite
+      Position.X = 250.000000000000000000
+      Position.Y = 107.000000000000000000
+      Size.Width = 28.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 5.000000000000000000
+      YRadius = 5.000000000000000000
+      object Text4: TText
+        Align = Center
+        Size.Width = 26.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object Layout2: TLayout
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object SpeedButton1: TSpeedButton
+      Align = MostLeft
+      Size.Width = 80.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Show Time Zones'
+      TextSettings.WordWrap = True
+      OnClick = SpeedButton1Click
+    end
+    object SpeedButton2: TSpeedButton
+      Align = Left
+      Position.X = 80.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Hide Time Zones'
+      TextSettings.WordWrap = True
+      OnClick = SpeedButton2Click
+    end
+    object Text2: TText
+      Position.X = 184.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 345.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Text3: TText
+      Align = Right
+      Position.X = 552.000000000000000000
+      Size.Width = 88.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 32
+    Top = 392
+  end
+  object Circle2: TCircle
+    Align = Center
+    Fill.Color = claBlack
+    Size.Width = 26.000000000000000000
+    Size.Height = 26.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    EditMode = True
+    Align = Left
+    Position.Y = 50.000000000000000000
+    Size.Width = 1.000000000000000000
+    Size.Height = 430.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    StyleLookup = 'listviewstyle'
+    CanSwipeDelete = False
+    OnItemClick = ListView1ItemClick
+  end
+end

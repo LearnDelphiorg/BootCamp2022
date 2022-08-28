@@ -1,0 +1,25 @@
+Procedure TForm1.Timer1Timer(Sender: TObject);
+  Var
+    Hour, TwelveHour, Minute, Second : Word;
+    strHour, strMinute, strSecond : String;
+    DateTime : TDateTime;
+  Begin
+    DateTime := Now;
+    Hour := HourOf(DateTime);
+    TwelveHour := Hour Mod 12;
+    Minute := MinuteOf(DateTime);
+    Second := SecondOf(DateTime);
+    rrHour.RotationAngle := 30 * TwelveHour + Round(Minute/2.17);
+    rrMinute.RotationAngle := 6 * Minute;
+    rrSecond.RotationAngle := 6 * Second;
+    strHour := Hour.ToString;
+    strMinute := Minute.ToString;
+    strSecond := Second.ToString;
+    If (Length(strMinute) < 2)
+      Then strMinute := '0' + strMinute;
+    If (Length(strSecond) < 2)
+      Then strSecond := '0' + strSecond;
+      If (Length(strHour) < 2)
+      Then strHour := '0' + strHour;
+    Text3.Text := strHour + ':' + strMinute + ':' + strSecond;
+  End;

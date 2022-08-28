@@ -1,0 +1,51 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = 'Sliding Puzzle 8'
+  ClientHeight = 531
+  ClientWidth = 391
+  Cursor = crHandPoint
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object Text1: TText
+    Position.X = 50.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Tractable Sliding Puzzle 8'
+    TextSettings.Font.Family = 'Lucida Bright'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claRed
+  end
+  object Text2: TText
+    Position.X = 58.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 47.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Educational Computing Services Ltd'
+    TextSettings.Font.Family = 'Lucida Bright'
+    TextSettings.FontColor = claRed
+  end
+  object Text3: TText
+    Position.X = 50.000000000000000000
+    Position.Y = 408.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    Text = 
+      'Click or tap a tile adjacent by row or column to blank tile to s' +
+      'wap their positions. The goal is to arrange the numbers on tiles' +
+      ' sequentially from the top by row.'
+    TextSettings.Font.Family = 'Lucida Bright'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.FontColor = claRed
+  end
+end

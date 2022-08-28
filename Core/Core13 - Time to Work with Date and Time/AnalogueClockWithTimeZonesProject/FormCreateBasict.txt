@@ -1,0 +1,27 @@
+Procedure TForm1.FormCreate(Sender: TObject);
+  Var
+    i : Integer;
+    ClockFaceLayout : TLayout;
+    Text1 : TText;
+  Begin
+    For i := 1 To 11
+      Do
+        Begin
+          ClockFaceLayout := TLayout(Circle1.FindStyleResource('ClockNumber', True));
+          If ClockFaceLayOut <> Nil
+            Then
+              Begin
+                ClockFaceLayOut.Parent := Circle1;
+                ClockFaceLayOut.RotationAngle := i * 30;
+                Text1 := TText(ClockFaceLayOut.Children[0]);
+                If Text1 <> Nil
+                  Then
+                    Begin
+                      Text1.Text := i.ToString;
+                      Text1.RotationAngle := (i * 30) * -1;
+                    End;
+              End;
+        End;
+     Text2.Text := 'etc/GMT';
+     CurrentTimeZone := Text2.Text;
+  End;
